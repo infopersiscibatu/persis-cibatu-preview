@@ -1,3 +1,5 @@
+import { jalurBagikan } from "./tautanBagikan";
+
 export type KontenBagikan = {
   judul: string;
   penulis?: string;
@@ -18,7 +20,7 @@ export function urlPublik(jalur: string, asal: string): string {
 const bersih = (teks = "") => teks.replace(/<[^>]*>/g, "").replace(/\s+/g, " ").trim();
 
 export function susunBagikan(konten: KontenBagikan, asal: string) {
-  const url = urlPublik(konten.jalur, asal);
+  const url = urlPublik(jalurBagikan(konten.jalur), asal);
   const gambar = konten.gambar ? urlPublik(konten.gambar, asal) : "";
   const judul = bersih(konten.judul);
   const penulis = bersih(konten.penulis);

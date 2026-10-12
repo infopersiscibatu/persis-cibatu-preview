@@ -1,4 +1,5 @@
 # Roadmap migrasi
+- [x] Sediakan tautan publik dengan pratinjau gambar konten seperti WordPress
 - [x] Salin seluruh kode tampilan, gambar, dan server asli
 - [x] Database di Lovable Cloud (skema + perubahan + data awal)
 - [x] Semua alamat /api/* dilayani kode server lama lewat Lovable Cloud

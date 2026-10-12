@@ -11,7 +11,7 @@ describe("Content share destinations", () => {
     "/#/galeri/f-1",
     "/#/info/program-satu",
   ])("keeps the direct content destination %s", (jalur) => {
-    expect(susunBagikan({ judul: "Kegiatan", jalur }, asal).url).toBe(`https://persis.example${jalur}`);
+    expect(susunBagikan({ judul: "Kegiatan", jalur }, asal).url).toBe(`https://persis.example/api/public/bagikan/${jalur.slice(3)}`);
   });
   it("resolves uploaded images on the same deployed origin", () => {
     expect(susunBagikan({ judul: "Kegiatan", jalur: "/#/galeri/f-1", gambar: "/berkas/kegiatan.png" }, asal).gambar).toBe("https://persis.example/berkas/kegiatan.png");
