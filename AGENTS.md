@@ -15,4 +15,5 @@
 - Web Push is implemented with WebCrypto in `src/legacy-api/lib/webpush-shim.js` (drop-in for the Node-only web-push library).
 - Foreground push banners receive same-origin service-worker messages in one app-level BannerPush; native notifications remain enabled because background presentation belongs to the OS.
 - Uploaded files live in the private `media` bucket and are served by `src/routes/berkas/$.ts`.
+- PWA icons keep the logo at ~70% of the canvas with transparent (or brand-green for apple-touch) padding: Android launchers mask icons, so full-bleed logos look oversized/cropped. The pre-hydration route fallback mirrors LayarMuat on `#0e4b2b` so the OS splash blends into the loading screen; the OS splash itself cannot be disabled.
 - Public sharing uses one content formatter and floating share controls across detail views; server-visible `/api/public/bagikan/*` URLs return per-item Open Graph HTML from published public content and continue readers to the original hash destination, because crawlers cannot read hash navigation. Preserve native image sharing when supported and never assume a platform accepts prefilled captions.
