@@ -10,7 +10,7 @@ export default function Footer() {
     <footer id="kontak" className="bg-persis-900 text-white">
       <div
         className="mx-auto w-full max-w-[620px] px-4 pt-8"
-        style={{ paddingBottom: "calc(5.625rem + env(safe-area-inset-bottom))" }}
+        style={{ paddingBottom: "calc(1rem + env(safe-area-inset-bottom))" }}
       >
         <div className="flex flex-col items-center text-center">
           <img src={identitas.logo} alt="" className="h-[62px] w-[62px] object-contain" draggable={false} />
