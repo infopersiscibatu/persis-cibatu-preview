@@ -52,6 +52,14 @@ body {
   }
 }
 
+@keyframes bannerJatuh {
+  from { opacity: 0; transform: translateY(calc(-100% - 24px)); }
+  75% { opacity: 1; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.banner-push { animation: bannerJatuh 0.42s ease-out both; }
+
 .fade-in {
   animation: 0.22s ease-out both fadeIn;
 }
@@ -90,6 +98,7 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .fade-in,
+  .banner-push,
   .popup-panel {
     animation: none;
   }
