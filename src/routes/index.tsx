@@ -32,7 +32,7 @@ function LayarKosong() {
       <img
         src="/logo-persis.png"
         alt="Logo Persatuan Islam (PERSIS)"
-        className="h-[118px] w-[118px] object-contain drop-shadow-[0_10px_26px_rgba(0,0,0,0.45)]"
+        className="h-24 w-24 rounded-full object-contain"
         draggable={false}
       />
       <p className="font-header mt-1 text-[15px] leading-tight font-extrabold tracking-[0.01em]">Memuat Data</p>
