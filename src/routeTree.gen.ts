@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ApiSplatRouteImport } from './routes/api/$'
 import { Route as BerkasSplatRouteImport } from './routes/berkas/$'
+import { Route as ApiPublicBagikanSplatRouteImport } from './routes/api/public/bagikan/$'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,35 +29,44 @@ const BerkasSplatRoute = BerkasSplatRouteImport.update({
   path: '/berkas/$',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicBagikanSplatRoute = ApiPublicBagikanSplatRouteImport.update({
+  id: '/api/public/bagikan/$',
+  path: '/api/public/bagikan/$',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/api/$': typeof ApiSplatRoute
   '/berkas/$': typeof BerkasSplatRoute
+  '/api/public/bagikan/$': typeof ApiPublicBagikanSplatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/api/$': typeof ApiSplatRoute
   '/berkas/$': typeof BerkasSplatRoute
+  '/api/public/bagikan/$': typeof ApiPublicBagikanSplatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/api/$': typeof ApiSplatRoute
   '/berkas/$': typeof BerkasSplatRoute
+  '/api/public/bagikan/$': typeof ApiPublicBagikanSplatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/api/$' | '/berkas/$'
+  fullPaths: '/' | '/api/$' | '/berkas/$' | '/api/public/bagikan/$'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/api/$' | '/berkas/$'
-  id: '__root__' | '/' | '/api/$' | '/berkas/$'
+  to: '/' | '/api/$' | '/berkas/$' | '/api/public/bagikan/$'
+  id: '__root__' | '/' | '/api/$' | '/berkas/$' | '/api/public/bagikan/$'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ApiSplatRoute: typeof ApiSplatRoute
   BerkasSplatRoute: typeof BerkasSplatRoute
+  ApiPublicBagikanSplatRoute: typeof ApiPublicBagikanSplatRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -82,6 +92,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BerkasSplatRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/api/public/bagikan/$': {
+      id: '/api/public/bagikan/$'
+      path: '/api/public/bagikan/$'
+      fullPath: '/api/public/bagikan/$'
+      preLoaderRoute: typeof ApiPublicBagikanSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ApiSplatRoute: ApiSplatRoute,
   BerkasSplatRoute: BerkasSplatRoute,
+  ApiPublicBagikanSplatRoute: ApiPublicBagikanSplatRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
