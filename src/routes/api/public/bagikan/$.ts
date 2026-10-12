@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { tujuanBagikan } from "@/app/lib/tautanBagikan";
 import { dariBawaan, dariJawaban, endpointBagikan, halamanPratinjau } from "@/lib/pratinjauBagikan";
 
 /** HTML is readable without JavaScript; readers continue to the original hash page. */
@@ -8,7 +9,10 @@ export const Route = createFileRoute("/api/public/bagikan/$")({
       GET: async ({ request, params }) => {
         const jalur = params._splat ?? "";
         const endpoint = endpointBagikan(jalur);
-        if (!endpoint) return new Response("Tidak ditemukan", { status: 404 });
+        const tujuan = tujuanBagikan(jalur);
+        if (!endpoint || !tujuan) return Response.redirect(new URL("/", request.url).href, 302);
+        // Readers must always reach the content, even when the preview lookup fails.
+        const lanjut = () => new Response(null, { status: 302, headers: { location: new URL(tujuan.hash, request.url).href, "cache-control": "no-store" } });
         let data;
         if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY) {
           try {
@@ -19,12 +23,12 @@ export const Route = createFileRoute("/api/public/bagikan/$")({
             data = dariJawaban(jalur, await response.json());
           } catch (error) {
             console.error("Pratinjau bagikan gagal:", error);
-            return new Response("Pratinjau belum tersedia. Coba lagi sebentar.", { status: 503, headers: { "cache-control": "no-store" } });
+            return lanjut();
           }
         } else {
           data = dariBawaan(jalur);
         }
-        if (!data) return new Response("Tidak ditemukan", { status: 404 });
+        if (!data) return lanjut();
         const url = new URL(request.url);
         url.search = "";
         url.hash = "";
