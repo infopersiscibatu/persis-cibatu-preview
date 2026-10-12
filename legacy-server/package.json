@@ -1,0 +1,23 @@
+{
+  "name": "persis-cibatu-push",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "db:skema": "node db/jalankan.js --skema",
+    "db:benih": "node db/jalankan.js --benih",
+    "db:periksa": "node db/jalankan.js --periksa",
+    "benih:baru": "node db/buat-benih.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.699.0",
+    "express": "4.21.2",
+    "pg": "8.13.2",
+    "web-push": "3.6.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

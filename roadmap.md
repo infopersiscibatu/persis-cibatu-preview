@@ -1,0 +1,10 @@
+# Roadmap migrasi
+- [x] Salin seluruh kode tampilan, gambar, dan server asli
+- [x] Database di Lovable Cloud (skema + perubahan + data awal)
+- [x] Semua alamat /api/* dilayani kode server lama lewat Lovable Cloud
+- [x] Upload foto/dokumen ke penyimpanan Lovable Cloud (/berkas/...)
+- [x] Kirim notifikasi ke layar HP (Web Push asli lewat WebCrypto)
+- [ ] Ganti PIN admin bawaan 8081 (dilakukan pemilik lewat halaman admin)
+- [ ] Hapus footer semua halaman
+- [ ] Tambahkan berbagi untuk artikel, berita, pengumuman, agenda, galeri, dan donasi
+- [ ] Uji pilihan berbagi dan tautan langsung
