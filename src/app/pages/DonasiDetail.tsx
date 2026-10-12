@@ -147,7 +147,7 @@ export function HalamanDonasiDetail({
 
       <div className="mx-auto w-full max-w-[620px] pb-7">
         <section aria-label="Dana terkumpul" className="px-5 pt-5">
-          <div className="mb-4 flex justify-end"><TombolBagikan konten={{ judul: program.judul, penulis: program.pengelola, ringkasan: program.ringkasan, gambar: program.gambar, jalur: `/#/info/${program.slug}` }} /></div>
+          <TombolBagikan konten={{ judul: program.judul, penulis: program.pengelola, ringkasan: program.ringkasan, gambar: program.gambar, jalur: `/#/info/${program.slug}` }} />
           <article data-testid="donasi-dana-terkumpul" className="rounded-2xl border border-black/[0.08] bg-white p-4">
             <p className="text-[10px] font-bold tracking-[0.14em] text-persis-900 uppercase">Dana Terkumpul</p>
             <p className="font-header mt-2 text-[26px] leading-none font-extrabold tracking-[-0.01em] tabular-nums text-ink-900">

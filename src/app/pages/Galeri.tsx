@@ -216,7 +216,7 @@ export function HalamanGaleri({ sasaran }: { sasaran?: string | null }) {
                 {fotoAktif.kategori} · {fotoAktif.tanggalTeks}
               </p>
               <p className="mt-1 text-[12.5px] leading-snug font-bold text-ink-900">{fotoAktif.judul}</p>
-              <div className="mt-3 flex justify-end"><TombolBagikan konten={{ judul: fotoAktif.judul, ringkasan: `${fotoAktif.kategori} · ${fotoAktif.tanggalTeks}`, gambar: fotoAktif.gambar, jalur: `/#/galeri/${fotoAktif.id}` }} /></div>
+              <TombolBagikan konten={{ judul: fotoAktif.judul, ringkasan: `${fotoAktif.kategori} · ${fotoAktif.tanggalTeks}`, gambar: fotoAktif.gambar, jalur: `/#/galeri/${fotoAktif.id}` }} />
             </div>
             <div className="mt-3 flex items-center justify-between gap-2">
               <button
