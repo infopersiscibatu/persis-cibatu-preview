@@ -22,7 +22,7 @@ export default function LayarMuat() {
         data-testid="layar-muat-logo"
         src={identitas.logo}
         alt={identitas.logoAlt}
-        className="h-[118px] w-[118px] object-contain drop-shadow-[0_10px_26px_rgba(0,0,0,0.45)]"
+        className="h-24 w-24 rounded-full object-contain"
         draggable={false}
       />
 

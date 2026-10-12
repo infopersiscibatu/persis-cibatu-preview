@@ -1,4 +1,5 @@
 # Roadmap migrasi
+- [ ] Perkecil ikon PWA dan hilangkan latar kotak pada ikon splash
 - [x] Tambahkan banner notifikasi masuk dengan animasi jatuh dari atas
 - [x] Sediakan tautan publik dengan pratinjau gambar konten seperti WordPress
 - [x] Salin seluruh kode tampilan, gambar, dan server asli
