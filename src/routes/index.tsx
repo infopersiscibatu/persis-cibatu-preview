@@ -24,10 +24,35 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
+/* Layar sebelum aplikasi siap: sama dengan layar Memuat Data situs, sehingga
+   layar pembuka sistem HP menyatu mulus ke layar memuat tanpa kedipan putih. */
+function LayarKosong() {
+  return (
+    <div className="fixed inset-0 z-[80] flex flex-col items-center justify-center gap-3.5 bg-persis-900 px-8 text-center text-white">
+      <img
+        src="/logo-persis.png"
+        alt="Logo Persatuan Islam (PERSIS)"
+        className="h-[118px] w-[118px] object-contain drop-shadow-[0_10px_26px_rgba(0,0,0,0.45)]"
+        draggable={false}
+      />
+      <p className="font-header mt-1 text-[15px] leading-tight font-extrabold tracking-[0.01em]">Memuat Data</p>
+      <span className="mt-1.5 flex items-center gap-1.5" aria-hidden="true">
+        {[0, 1, 2].map((i) => (
+          <span
+            key={i}
+            style={{ animationDelay: `${i * 0.16}s` }}
+            className="muat-titik block h-1.5 w-1.5 rounded-full bg-gold-300"
+          />
+        ))}
+      </span>
+    </div>
+  );
+}
+
 function Index() {
   return (
-    <ClientOnly fallback={<div className="min-h-screen" />}>
-      <Suspense fallback={<div className="min-h-screen" />}>
+    <ClientOnly fallback={<LayarKosong />}>
+      <Suspense fallback={<LayarKosong />}>
         <AppPersis />
       </Suspense>
     </ClientOnly>
