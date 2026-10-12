@@ -5,6 +5,10 @@ import { createFileRoute } from "@tanstack/react-router";
  * (src/legacy-api) yang kini memakai database & penyimpanan Lovable Cloud.
  */
 async function teruskan({ request }: { request: Request }) {
+  // Mode pratinjau: tanpa database, aplikasi memakai data bawaan di src/app/data.
+  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
+    return Response.json({ pesan: "Mode pratinjau: database belum terhubung." }, { status: 404 });
+  }
   try {
     const { tangani } = await import("@/legacy-api/index.js");
     return await tangani(request);
