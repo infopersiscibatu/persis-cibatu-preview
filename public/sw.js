@@ -17,13 +17,22 @@ self.addEventListener("push", (peristiwa) => {
     badge: "/favicon.png",
     tag: data.tag || "persis-cibatu",
     lang: "id",
-    /* Getar + prioritas tinggi: notifikasi jatuh dari atas layar seperti aplikasi Android. */
+    /* Tampilan banner sistem ditentukan peramban dan pengaturan perangkat. */
     vibrate: [200, 100, 200],
     requireInteraction: true,
     data: { url: data.url || "/" },
   };
 
-  peristiwa.waitUntil(self.registration.showNotification(judul, opsi));
+  peristiwa.waitUntil(Promise.all([
+    self.registration.showNotification(judul, opsi),
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then((daftar) => {
+      for (const klien of daftar) {
+        if (klien.visibilityState === "visible" && new URL(klien.url).origin === self.location.origin) {
+          klien.postMessage({ type: "PERSIS_PUSH", payload: { title: judul, body: opsi.body, url: opsi.data.url } });
+        }
+      }
+    }),
+  ]));
 });
 
 self.addEventListener("notificationclick", (peristiwa) => {
