@@ -10,3 +10,4 @@
 - [ ] Hapus footer semua halaman
 - [ ] Tambahkan berbagi untuk artikel, berita, pengumuman, agenda, galeri, dan donasi
 - [ ] Uji pilihan berbagi dan tautan langsung
+- [x] Perbaiki ikon PWA (tampilan tidak terpotong, berkas ringan) dan satukan layar pembuka ke layar Memuat Data
