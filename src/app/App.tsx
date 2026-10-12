@@ -235,7 +235,7 @@ export default function App() {
             : null;
 
   return (
-    <div className={`min-h-dvh bg-page ${panel ? "" : "pb-24"}`}>
+    <div className={`min-h-dvh bg-page ${panel ? "" : "pb-[72px]"}`}>
       <DialogIzinNotifikasi />
       <PopupInstall />
 
