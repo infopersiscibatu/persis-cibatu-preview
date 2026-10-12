@@ -8,3 +8,10 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- The original PERSIS Cibatu app lives in `src/app/` and is rendered client-only from `src/routes/index.tsx` (it uses hash navigation); keeps the imported code intact while migrating.
+- `legacy-server/` is the untouched original server for reference; the running copy is `src/legacy-api/` (auto-converted to ESM) served by `src/routes/api/$.ts` through a tiny Express shim, so original route code stays unchanged.
+- Legacy SQL runs via service-role RPC `public.jalankan_sql` with client-side literal parameter substitution; all public tables are RLS-locked with no anon/authenticated grants because only the server touches them.
+- Web Push is implemented with WebCrypto in `src/legacy-api/lib/webpush-shim.js` (drop-in for the Node-only web-push library).
+- Uploaded files live in the private `media` bucket and are served by `src/routes/berkas/$.ts`.
+- Public sharing uses one browser-only content formatter and share dialog across detail views; preserve per-item hash links, use native sharing for image attachments when supported, and never assume a platform accepts prefilled captions.

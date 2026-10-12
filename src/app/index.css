@@ -1,0 +1,186 @@
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-header: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-persis-950: #07291a;
+  --color-persis-900: #0e4b2b;
+  --color-persis-800: #14603a;
+  --color-persis-700: #1b7a47;
+
+  --color-gold-700: #8a6a12;
+  --color-gold-600: #a8801a;
+  --color-gold-500: #c9a227;
+  --color-gold-400: #ddb94a;
+  --color-gold-300: #ecd27f;
+
+  --color-page: #f8faf8;
+  --color-cream-50: #fffdf8;
+  --color-cream-100: #faf6ec;
+  --color-cream-200: #f2ead8;
+  --color-mint-100: #e9f2ec;
+  --color-mint-deep: #d5ebdf;
+  --color-pastelgold: #faf1da;
+  --color-pastelrose: #f7e6e6;
+
+  --color-ink-900: #10231a;
+  --color-ink-600: #55655d;
+  --color-ink-400: #8b968f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink-900);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: 0.22s ease-out both fadeIn;
+}
+
+@keyframes popupUp {
+  0% {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup-panel {
+  animation: 0.24s ease-out both popupUp;
+}
+
+@keyframes denyutMuat {
+  0%,
+  70%,
+  100% {
+    opacity: 0.28;
+    transform: translateY(0);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(-3px);
+  }
+}
+
+.muat-titik {
+  animation: 1.05s ease-in-out infinite denyutMuat;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-in,
+  .popup-panel {
+    animation: none;
+  }
+
+  .muat-titik {
+    animation: none;
+    opacity: 0.75;
+  }
+}
+
+/* Isian formulir (SPMB & kontak) */
+.field-label {
+  color: var(--color-persis-900);
+  margin-bottom: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  display: block;
+}
+
+.field-input {
+  width: 100%;
+  color: var(--color-persis-950);
+  background: var(--color-cream-50);
+  border: 1px solid #0b3b2429;
+  border-radius: 14px;
+  outline: none;
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.5;
+  transition:
+    border-color 0.18s,
+    box-shadow 0.18s;
+}
+
+.field-input::placeholder {
+  color: #10231a59;
+}
+
+.field-input:focus {
+  border-color: var(--color-gold-500);
+  box-shadow: 0 0 0 3px #c9a2272e;
+}
+
+.field-input[aria-invalid="true"] {
+  border-color: #b03a1a;
+  box-shadow: 0 0 0 3px #b03a1a1f;
+}
+
+.field-error {
+  color: #b03a1a;
+  margin-top: 5px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.field-hint {
+  color: #10231a80;
+  text-align: justify;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Kartu bertingkat: dipakai halaman profil, jenjang, dan daftar lainnya */
+.card-elev {
+  background: #fff;
+  border: 1px solid #07332712;
+  box-shadow:
+    0 1px 2px #07332712,
+    0 10px 22px -16px #07332766;
+}
+
+.card-accent {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-accent::before {
+  content: "";
+  background: linear-gradient(#ddb94a, #a8801a);
+  width: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}

@@ -12,4 +12,6 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Saat dibangun di Vercel, hasilkan keluaran khusus Vercel.
+  ...(process.env.VERCEL ? { nitro: { preset: "vercel" } } : {}),
 });

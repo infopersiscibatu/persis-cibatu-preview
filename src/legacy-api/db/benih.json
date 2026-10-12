@@ -1,0 +1,251 @@
+{
+  "versi": "v4",
+  "dibuat": "2026-10-05T03:48:31.158Z",
+  "situs": {
+    "id": "utama",
+    "pimpinan": "Pimpinan Cabang",
+    "nama": "Persatuan Islam (PERSIS)",
+    "nama_lengkap": "Persatuan Islam (PERSIS) Cibatu",
+    "singkatan": "PERSIS",
+    "wilayah": "Cibatu – Garut",
+    "wilayah_lengkap": "Cibatu · Garut · Jawa Barat",
+    "alamat": "Jl. Raya Cibatu No. 12, Kec. Cibatu, Kab. Garut, Jawa Barat 44185",
+    "telepon": "(0262) 555-1234",
+    "whatsapp": "0812-3456-7890",
+    "email": "sekretariat@persiscibatu.or.id",
+    "jam_layanan": "Senin – Jumat, 07.30 – 15.30 WIB",
+    "logo_url": "/logo-persis.png",
+    "meta_judul": "Persatuan Islam (PERSIS) Cibatu — Pimpinan Cabang PERSIS",
+    "meta_deskripsi": "Pendidikan Islam terpadu di bawah naungan Pimpinan Cabang Persatuan Islam Cibatu, Garut: RA, MI, MDT, MTs, MA, dan Perguruan Tinggi."
+  },
+  "pengaturan": [
+    {
+      "kunci": "halaman_jenjang",
+      "kelompok": "jenjang",
+      "nilai": {
+        "judul": "Jenjang Pendidikan",
+        "pengantar": "PC PERSIS Cibatu menaungi lima jenjang pendidikan formal, dari Raudhatul Athfal sampai perguruan tinggi, dengan kurikulum yang memadukan ilmu agama dan ilmu umum. Selain itu ada Madrasah Diniyyah Takmiliyyah (MDT) sebagai pendidikan diniyyah sore hari yang tidak dihitung dalam jumlah jenjang formal."
+      },
+      "keterangan": "Judul & pengantar halaman Jenjang"
+    },
+    {
+      "kunci": "istilah",
+      "kelompok": "jenjang",
+      "nilai": {
+        "sekolah": {
+          "unit": "sekolah",
+          "unitKumpulan": "Daftar Sekolah",
+          "unitLain": "Sekolah Lain",
+          "peserta": "Peserta didik",
+          "pengajar": "Guru & staf",
+          "rombel": "Rombongan belajar",
+          "kegiatan": "Ekstrakurikuler",
+          "jurusan": "Jurusan",
+          "materi": "Mata pelajaran khas",
+          "statUnit": "Sekolah",
+          "statPeserta": "Siswa & Santri",
+          "kode": "NPSN",
+          "identitas": "Identitas Sekolah",
+          "status": "Swasta – PERSIS"
+        },
+        "madrasah": {
+          "unit": "madrasah",
+          "unitKumpulan": "Daftar Madrasah",
+          "unitLain": "Madrasah Lain",
+          "peserta": "Santri",
+          "pengajar": "Ustadz & staf",
+          "rombel": "Kelas diniyyah",
+          "kegiatan": "Kegiatan Diniyyah",
+          "jurusan": "Program",
+          "materi": "Mata pelajaran",
+          "statUnit": "Madrasah",
+          "statPeserta": "Santri",
+          "kode": "Nomor Izin",
+          "identitas": "Identitas Madrasah",
+          "status": "Non-formal – PERSIS"
+        },
+        "kampus": {
+          "unit": "kampus",
+          "unitKumpulan": "Daftar Kampus",
+          "unitLain": "Kampus Lain",
+          "peserta": "Mahasiswa",
+          "pengajar": "Dosen & staf",
+          "rombel": "Kelas kuliah",
+          "kegiatan": "Kegiatan Mahasiswa",
+          "jurusan": "Program Studi",
+          "materi": "Mata kuliah",
+          "statUnit": "Kampus",
+          "statPeserta": "Mahasiswa",
+          "kode": "Kode PT",
+          "identitas": "Identitas Kampus",
+          "status": "Perguruan Tinggi – PERSIS"
+        }
+      },
+      "keterangan": "Sebutan istilah per jenis unit pendidikan"
+    },
+    {
+      "kunci": "galeri_urut_album",
+      "kelompok": "galeri",
+      "nilai": [
+        "Semua",
+        "Kegiatan Belajar",
+        "Kajian & Dakwah",
+        "Tahfizhul Qur'an",
+        "Ekstrakurikuler",
+        "Wisuda & Kelulusan",
+        "Fasilitas & Kampus"
+      ],
+      "keterangan": "Urutan tab album pada halaman Galeri"
+    },
+    {
+      "kunci": "donasi",
+      "kelompok": "donasi",
+      "nilai": {
+        "nominal_cepat": [
+          50000,
+          100000,
+          250000,
+          500000,
+          1000000,
+          2500000
+        ],
+        "tab": [
+          {
+            "id": "keterangan",
+            "label": "Keterangan"
+          },
+          {
+            "id": "donatur",
+            "label": "Donatur"
+          },
+          {
+            "id": "riwayat",
+            "label": "Riwayat"
+          }
+        ]
+      },
+      "keterangan": "Pilihan nominal cepat & tab halaman donasi"
+    },
+    {
+      "kunci": "sosial",
+      "kelompok": "umum",
+      "nilai": {
+        "whatsapp": "0812-3456-7890",
+        "instagram": "",
+        "facebook": "",
+        "youtube": ""
+      },
+      "keterangan": "Tautan media sosial lembaga"
+    },
+    {
+      "kunci": "push",
+      "kelompok": "notifikasi",
+      "nilai": {
+        "aktif": true,
+        "pengirim": "PC PERSIS Cibatu"
+      },
+      "keterangan": "Pengaturan notifikasi push"
+    },
+    {
+      "kunci": "identitas",
+      "kelompok": "umum",
+      "nilai": {
+        "pimpinan": "Pimpinan Cabang",
+        "nama": "Persatuan Islam (PERSIS)",
+        "namaLengkap": "Persatuan Islam (PERSIS) Cibatu",
+        "wilayah": "Cibatu – Garut",
+        "wilayahLengkap": "Cibatu · Garut · Jawa Barat"
+      },
+      "keterangan": "Nama, sebutan, dan wilayah lembaga"
+    },
+    {
+      "kunci": "logo",
+      "kelompok": "umum",
+      "nilai": {
+        "url": "/logo-persis.png",
+        "alt": "Logo Persatuan Islam (PERSIS)"
+      },
+      "keterangan": "Logo lembaga yang dipakai di kepala situs & halaman profil"
+    },
+    {
+      "kunci": "layanan_jamaah",
+      "kelompok": "umum",
+      "nilai": {
+        "alamat": "Jl. Raya Cibatu No. 12, Kec. Cibatu, Kab. Garut, Jawa Barat 44185",
+        "telepon": "(0262) 555-1234",
+        "whatsapp": "0812-3456-7890",
+        "email": "sekretariat@persiscibatu.or.id",
+        "jam": "Senin – Jumat, 07.30 – 15.30 WIB"
+      },
+      "keterangan": "Layanan jamaah: alamat sekretariat, kontak, dan jam layanan"
+    },
+    {
+      "kunci": "seo",
+      "kelompok": "umum",
+      "nilai": {
+        "deskripsi": "Pendidikan Islam terpadu di bawah naungan Pimpinan Cabang Persatuan Islam Cibatu, Garut: RA, MI, MDT, MTs, MA, dan Perguruan Tinggi.",
+        "kata_kunci": [
+          "PERSIS Cibatu",
+          "pendidikan Islam Garut",
+          "pesantren Cibatu"
+        ]
+      },
+      "keterangan": "Keterangan mesin pencari"
+    }
+  ],
+  "profil": {
+    "id": "utama",
+    "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "gambar_alt": "Masjid berkubah hijau di lingkungan PC PERSIS Cibatu, Jawa Barat",
+    "ringkasan": [
+      "Pimpinan Cabang Persatuan Islam (PERSIS) Cibatu adalah bagian dari jamiyah Persatuan Islam yang bergerak di bidang pendidikan, dakwah, dan sosial kemasyarakatan di wilayah Kecamatan Cibatu, Kabupaten Garut.",
+      "Sejak awal berdirinya, PC PERSIS Cibatu mengelola lembaga pendidikan formal dan non-formal — mulai dari Raudhatul Athfal, Madrasah Ibtidaiyah, Madrasah Tsanawiyah, Madrasah Aliyah, hingga majelis taklim dan program tahfizh — dengan rujukan utama Al-Qur'an dan As-Sunnah."
+    ],
+    "motto": "Iman, Ilmu, dan Amal",
+    "periode": "Periode 2026 – 2030",
+    "visi": "Menjadi lembaga pendidikan Islam yang unggul dan terpercaya dalam melahirkan generasi beriman, berilmu, dan beramal sesuai tuntunan Al-Qur'an dan As-Sunnah.",
+    "misi": [
+      "Menyelenggarakan pendidikan yang memadukan ilmu agama dan ilmu umum secara seimbang.",
+      "Membina akhlak, ibadah, dan kemandirian peserta didik melalui keteladanan pendidik.",
+      "Menggerakkan dakwah, kajian, dan kegiatan sosial bagi jamaah serta masyarakat sekitar.",
+      "Mengembangkan tata kelola lembaga yang amanah, transparan, dan berorientasi mutu."
+    ]
+  },
+  "pengurus": [],
+  "hero_slide": [],
+  "statistik": [],
+  "menu_cepat": [],
+  "tautan_sosial": [],
+  "jenjang": [],
+  "unit_pendidikan": [],
+  "jurusan": [],
+  "kategori": [],
+  "berita": [],
+  "artikel": [],
+  "pengumuman": [],
+  "agenda": [],
+  "kajian": [],
+  "kajian_rutin": [],
+  "galeri_album": [],
+  "galeri_foto": [],
+  "spmb_info": null,
+  "spmb_gelombang": [],
+  "spmb_biaya": [],
+  "tahun_ajaran": [],
+  "santri": [],
+  "mata_pelajaran": [],
+  "nilai": [],
+  "setoran_tahfidz": [],
+  "alumni": [],
+  "metode_pembayaran": [],
+  "tagihan": [],
+  "pembayaran": [],
+  "donasi_program": [],
+  "donasi_metode": [],
+  "donasi_rekening": [],
+  "donasi_donatur": [],
+  "donasi_riwayat": [],
+  "topik_kontak": [],
+  "kontak_unit": [],
+  "notifikasi": []
+}

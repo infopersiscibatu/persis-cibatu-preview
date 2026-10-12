@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1791460544230,
+      "tag": "0000_skema_persis_cibatu",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791460950281,
+      "tag": "0001_jalankan_ulang_perubahan",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1791462075252,
+      "tag": "0002_reset_kunci_push",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1791505107927,
+      "tag": "0003_tahun_ajaran_satu_aktif",
+      "breakpoints": true
+    }
+  ]
+}

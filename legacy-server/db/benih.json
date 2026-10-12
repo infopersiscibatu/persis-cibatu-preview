@@ -1,0 +1,3799 @@
+{
+  "versi": "v3",
+  "dibuat": "2026-10-05T03:48:31.158Z",
+  "situs": {
+    "id": "utama",
+    "pimpinan": "Pimpinan Cabang",
+    "nama": "Persatuan Islam (PERSIS)",
+    "nama_lengkap": "Persatuan Islam (PERSIS) Cibatu",
+    "singkatan": "PERSIS",
+    "wilayah": "Cibatu – Garut",
+    "wilayah_lengkap": "Cibatu · Garut · Jawa Barat",
+    "alamat": "Jl. Raya Cibatu No. 12, Kec. Cibatu, Kab. Garut, Jawa Barat 44185",
+    "telepon": "(0262) 555-1234",
+    "whatsapp": "0812-3456-7890",
+    "email": "sekretariat@persiscibatu.or.id",
+    "jam_layanan": "Senin – Jumat, 07.30 – 15.30 WIB",
+    "logo_url": "/logo-persis.png",
+    "meta_judul": "Persatuan Islam (PERSIS) Cibatu — Pimpinan Cabang PERSIS",
+    "meta_deskripsi": "Pendidikan Islam terpadu di bawah naungan Pimpinan Cabang Persatuan Islam Cibatu, Garut: RA, MI, MDT, MTs, MA, dan Perguruan Tinggi."
+  },
+  "pengaturan": [
+    {
+      "kunci": "halaman_jenjang",
+      "kelompok": "jenjang",
+      "nilai": {
+        "judul": "Jenjang Pendidikan",
+        "pengantar": "PC PERSIS Cibatu menaungi lima jenjang pendidikan formal, dari Raudhatul Athfal sampai perguruan tinggi, dengan kurikulum yang memadukan ilmu agama dan ilmu umum. Selain itu ada Madrasah Diniyyah Takmiliyyah (MDT) sebagai pendidikan diniyyah sore hari yang tidak dihitung dalam jumlah jenjang formal."
+      },
+      "keterangan": "Judul & pengantar halaman Jenjang"
+    },
+    {
+      "kunci": "istilah",
+      "kelompok": "jenjang",
+      "nilai": {
+        "sekolah": {
+          "unit": "sekolah",
+          "unitKumpulan": "Daftar Sekolah",
+          "unitLain": "Sekolah Lain",
+          "peserta": "Peserta didik",
+          "pengajar": "Guru & staf",
+          "rombel": "Rombongan belajar",
+          "kegiatan": "Ekstrakurikuler",
+          "jurusan": "Jurusan",
+          "materi": "Mata pelajaran khas",
+          "statUnit": "Sekolah",
+          "statPeserta": "Siswa & Santri",
+          "kode": "NPSN",
+          "identitas": "Identitas Sekolah",
+          "status": "Swasta – PERSIS"
+        },
+        "madrasah": {
+          "unit": "madrasah",
+          "unitKumpulan": "Daftar Madrasah",
+          "unitLain": "Madrasah Lain",
+          "peserta": "Santri",
+          "pengajar": "Ustadz & staf",
+          "rombel": "Kelas diniyyah",
+          "kegiatan": "Kegiatan Diniyyah",
+          "jurusan": "Program",
+          "materi": "Mata pelajaran",
+          "statUnit": "Madrasah",
+          "statPeserta": "Santri",
+          "kode": "Nomor Izin",
+          "identitas": "Identitas Madrasah",
+          "status": "Non-formal – PERSIS"
+        },
+        "kampus": {
+          "unit": "kampus",
+          "unitKumpulan": "Daftar Kampus",
+          "unitLain": "Kampus Lain",
+          "peserta": "Mahasiswa",
+          "pengajar": "Dosen & staf",
+          "rombel": "Kelas kuliah",
+          "kegiatan": "Kegiatan Mahasiswa",
+          "jurusan": "Program Studi",
+          "materi": "Mata kuliah",
+          "statUnit": "Kampus",
+          "statPeserta": "Mahasiswa",
+          "kode": "Kode PT",
+          "identitas": "Identitas Kampus",
+          "status": "Perguruan Tinggi – PERSIS"
+        }
+      },
+      "keterangan": "Sebutan istilah per jenis unit pendidikan"
+    },
+    {
+      "kunci": "galeri_urut_album",
+      "kelompok": "galeri",
+      "nilai": [
+        "Semua",
+        "Kegiatan Belajar",
+        "Kajian & Dakwah",
+        "Tahfizhul Qur'an",
+        "Ekstrakurikuler",
+        "Wisuda & Kelulusan",
+        "Fasilitas & Kampus"
+      ],
+      "keterangan": "Urutan tab album pada halaman Galeri"
+    },
+    {
+      "kunci": "donasi",
+      "kelompok": "donasi",
+      "nilai": {
+        "nominal_cepat": [
+          50000,
+          100000,
+          250000,
+          500000,
+          1000000,
+          2500000
+        ],
+        "tab": [
+          {
+            "id": "keterangan",
+            "label": "Keterangan"
+          },
+          {
+            "id": "donatur",
+            "label": "Donatur"
+          },
+          {
+            "id": "riwayat",
+            "label": "Riwayat"
+          }
+        ]
+      },
+      "keterangan": "Pilihan nominal cepat & tab halaman donasi"
+    },
+    {
+      "kunci": "sosial",
+      "kelompok": "umum",
+      "nilai": {
+        "whatsapp": "0812-3456-7890",
+        "instagram": "",
+        "facebook": "",
+        "youtube": ""
+      },
+      "keterangan": "Tautan media sosial lembaga"
+    },
+    {
+      "kunci": "push",
+      "kelompok": "notifikasi",
+      "nilai": {
+        "aktif": true,
+        "pengirim": "PC PERSIS Cibatu"
+      },
+      "keterangan": "Pengaturan notifikasi push"
+    },
+    {
+      "kunci": "identitas",
+      "kelompok": "umum",
+      "nilai": {
+        "pimpinan": "Pimpinan Cabang",
+        "nama": "Persatuan Islam (PERSIS)",
+        "namaLengkap": "Persatuan Islam (PERSIS) Cibatu",
+        "wilayah": "Cibatu – Garut",
+        "wilayahLengkap": "Cibatu · Garut · Jawa Barat"
+      },
+      "keterangan": "Nama, sebutan, dan wilayah lembaga"
+    },
+    {
+      "kunci": "logo",
+      "kelompok": "umum",
+      "nilai": {
+        "url": "/logo-persis.png",
+        "alt": "Logo Persatuan Islam (PERSIS)"
+      },
+      "keterangan": "Logo lembaga yang dipakai di kepala situs & halaman profil"
+    },
+    {
+      "kunci": "layanan_jamaah",
+      "kelompok": "umum",
+      "nilai": {
+        "alamat": "Jl. Raya Cibatu No. 12, Kec. Cibatu, Kab. Garut, Jawa Barat 44185",
+        "telepon": "(0262) 555-1234",
+        "whatsapp": "0812-3456-7890",
+        "email": "sekretariat@persiscibatu.or.id",
+        "jam": "Senin – Jumat, 07.30 – 15.30 WIB"
+      },
+      "keterangan": "Layanan jamaah: alamat sekretariat, kontak, dan jam layanan"
+    },
+    {
+      "kunci": "seo",
+      "kelompok": "umum",
+      "nilai": {
+        "deskripsi": "Pendidikan Islam terpadu di bawah naungan Pimpinan Cabang Persatuan Islam Cibatu, Garut: RA, MI, MDT, MTs, MA, dan Perguruan Tinggi.",
+        "kata_kunci": [
+          "PERSIS Cibatu",
+          "pendidikan Islam Garut",
+          "pesantren Cibatu"
+        ]
+      },
+      "keterangan": "Keterangan mesin pencari"
+    }
+  ],
+  "profil": {
+    "id": "utama",
+    "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    "gambar_alt": "Masjid berkubah hijau di lingkungan PC PERSIS Cibatu, Jawa Barat",
+    "ringkasan": [
+      "Pimpinan Cabang Persatuan Islam (PERSIS) Cibatu adalah bagian dari jamiyah Persatuan Islam yang bergerak di bidang pendidikan, dakwah, dan sosial kemasyarakatan di wilayah Kecamatan Cibatu, Kabupaten Garut.",
+      "Sejak awal berdirinya, PC PERSIS Cibatu mengelola lembaga pendidikan formal dan non-formal — mulai dari Raudhatul Athfal, Madrasah Ibtidaiyah, Madrasah Tsanawiyah, Madrasah Aliyah, hingga majelis taklim dan program tahfizh — dengan rujukan utama Al-Qur'an dan As-Sunnah."
+    ],
+    "motto": "Iman, Ilmu, dan Amal",
+    "periode": "Periode 2026 – 2030",
+    "visi": "Menjadi lembaga pendidikan Islam yang unggul dan terpercaya dalam melahirkan generasi beriman, berilmu, dan beramal sesuai tuntunan Al-Qur'an dan As-Sunnah.",
+    "misi": [
+      "Menyelenggarakan pendidikan yang memadukan ilmu agama dan ilmu umum secara seimbang.",
+      "Membina akhlak, ibadah, dan kemandirian peserta didik melalui keteladanan pendidik.",
+      "Menggerakkan dakwah, kajian, dan kegiatan sosial bagi jamaah serta masyarakat sekitar.",
+      "Mengembangkan tata kelola lembaga yang amanah, transparan, dan berorientasi mutu."
+    ]
+  },
+  "pengurus": [
+    {
+      "id": "pg-1",
+      "urutan": 1,
+      "nama": "Ust. H. Ahmad Fauzan, Lc., M.A.",
+      "jabatan": "Ketua Pimpinan Cabang",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    },
+    {
+      "id": "pg-2",
+      "urutan": 2,
+      "nama": "Ust. Dedi Rosyadi, S.Ag.",
+      "jabatan": "Wakil Ketua",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    },
+    {
+      "id": "pg-3",
+      "urutan": 3,
+      "nama": "Ust. Rizki Hidayatullah, S.Pd.",
+      "jabatan": "Sekretaris",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    },
+    {
+      "id": "pg-4",
+      "urutan": 4,
+      "nama": "H. Endang Kusnadi",
+      "jabatan": "Bendahara",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    },
+    {
+      "id": "pg-5",
+      "urutan": 5,
+      "nama": "Ust. Muhammad Nurdin, Lc.",
+      "jabatan": "Bidang Dakwah",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    },
+    {
+      "id": "pg-6",
+      "urutan": 6,
+      "nama": "Ust. Agus Salim, S.Pd.",
+      "jabatan": "Bidang Pendidikan",
+      "periode": "Periode 2026 – 2030",
+      "aktif": true
+    }
+  ],
+  "hero_slide": [
+    {
+      "id": "sl-1",
+      "urutan": 1,
+      "tag": "Selamat Datang",
+      "judul": "Membangun Generasi Qur'ani & Berakhlak Mulia",
+      "teks": "Pendidikan Islam terpadu di bawah naungan Pimpinan Cabang Persatuan Islam Cibatu, Garut.",
+      "gambar_url": "https://images.unsplash.com/photo-1569929919600-59123640bc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tombol_label": "Jelajahi Jenjang",
+      "tombol_halaman": "jenjang",
+      "aktif": true
+    },
+    {
+      "id": "sl-2",
+      "urutan": 2,
+      "tag": "SPMB 2026/2027",
+      "judul": "Sistem Penerimaan Murid & Mahasiswa Baru Telah Dibuka",
+      "teks": "RA, MI, MTs, MA, dan Perguruan Tinggi. Kuota terbatas — daftar lebih awal, dapatkan potongan biaya pendaftaran.",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tombol_label": "Jelajahi Jenjang",
+      "tombol_halaman": "jenjang",
+      "aktif": true
+    },
+    {
+      "id": "sl-3",
+      "urutan": 3,
+      "tag": "Program Unggulan",
+      "judul": "Tahfidz, Bahasa, dan Sains dalam Satu Kurikulum",
+      "teks": "Kelas tahfidz 30 juz, program bilingual Arab–Inggris, dan laboratorium sains untuk jenjang menengah.",
+      "gambar_url": "https://images.pexels.com/photos/35548840/pexels-photo-35548840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tombol_label": "Jelajahi Jenjang",
+      "tombol_halaman": "jenjang",
+      "aktif": true
+    },
+    {
+      "id": "sl-4",
+      "urutan": 4,
+      "tag": "Kajian Rutin",
+      "judul": "Kajian Ahad Subuh Bersama PC PERSIS Cibatu",
+      "teks": "Setiap Ahad, 05.30 WIB di Masjid Al-Furqan Cibatu. Terbuka untuk seluruh kaum muslimin.",
+      "gambar_url": "https://images.pexels.com/photos/38973253/pexels-photo-38973253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tombol_label": "Jelajahi Jenjang",
+      "tombol_halaman": "jenjang",
+      "aktif": true
+    }
+  ],
+  "statistik": [
+    {
+      "id": "st-1",
+      "urutan": 1,
+      "ikon": "graduation-cap",
+      "label": "Jenjang Pendidikan",
+      "label_pendek": "Jenjang",
+      "nilai": "5",
+      "satuan": "jenjang",
+      "catatan": "RA — Perguruan Tinggi",
+      "sumber": "jenjang",
+      "tone": "green",
+      "aktif": true
+    },
+    {
+      "id": "st-2",
+      "urutan": 2,
+      "ikon": "users",
+      "label": "Siswa & Santri",
+      "label_pendek": "Siswa & Santri",
+      "nilai": "1.248",
+      "satuan": "jiwa",
+      "catatan": "Tahun ajaran ini",
+      "sumber": "siswa",
+      "tone": "gold",
+      "aktif": true
+    },
+    {
+      "id": "st-3",
+      "urutan": 3,
+      "ikon": "book-open",
+      "label": "Mahasiswa",
+      "label_pendek": "Mahasiswa",
+      "nilai": "312",
+      "satuan": "mahasiswa",
+      "catatan": "Perguruan Tinggi PERSIS Cibatu",
+      "sumber": "mahasiswa",
+      "tone": "mint",
+      "aktif": true
+    }
+  ],
+  "menu_cepat": [
+    {
+      "id": "mn-1",
+      "urutan": 1,
+      "label": "Profil",
+      "keterangan": "Sejarah & struktur",
+      "ikon": "user",
+      "tone": "green",
+      "halaman": "profil",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-2",
+      "urutan": 2,
+      "label": "Jenjang",
+      "keterangan": "RA – Perguruan Tinggi",
+      "ikon": "graduation-cap",
+      "tone": "gold",
+      "halaman": "jenjang",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-3",
+      "urutan": 3,
+      "label": "SPMB",
+      "keterangan": "Daftar online",
+      "ikon": "clipboard",
+      "tone": "peach",
+      "halaman": "ppdb",
+      "lencana": "Buka",
+      "aktif": true
+    },
+    {
+      "id": "mn-4",
+      "urutan": 4,
+      "label": "Wali Santri",
+      "keterangan": "Portal wali",
+      "ikon": "users",
+      "tone": "sky",
+      "halaman": "wali",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-5",
+      "urutan": 5,
+      "label": "Galeri",
+      "keterangan": "Foto kegiatan",
+      "ikon": "image",
+      "tone": "lilac",
+      "halaman": "galeri",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-6",
+      "urutan": 6,
+      "label": "Berita",
+      "keterangan": "Kabar lembaga",
+      "ikon": "newspaper",
+      "tone": "mint",
+      "halaman": "berita",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-7",
+      "urutan": 7,
+      "label": "Kajian",
+      "keterangan": "Jadwal & rekaman",
+      "ikon": "book-open",
+      "tone": "green",
+      "halaman": "kajian",
+      "lencana": null,
+      "aktif": true
+    },
+    {
+      "id": "mn-8",
+      "urutan": 8,
+      "label": "Kontak",
+      "keterangan": "Hubungi kami",
+      "ikon": "phone",
+      "tone": "gold",
+      "halaman": "kontak",
+      "lencana": null,
+      "aktif": true
+    }
+  ],
+  "tautan_sosial": [
+    {
+      "id": "ts-wa",
+      "urutan": 1,
+      "nama": "WhatsApp",
+      "url": "https://wa.me/6281234567890",
+      "ikon": "whatsapp"
+    },
+    {
+      "id": "ts-ig",
+      "urutan": 2,
+      "nama": "Instagram",
+      "url": "https://instagram.com",
+      "ikon": "instagram"
+    },
+    {
+      "id": "ts-fb",
+      "urutan": 3,
+      "nama": "Facebook",
+      "url": "https://facebook.com",
+      "ikon": "facebook"
+    },
+    {
+      "id": "ts-yt",
+      "urutan": 4,
+      "nama": "YouTube",
+      "url": "https://youtube.com",
+      "ikon": "youtube"
+    }
+  ],
+  "jenjang": [
+    {
+      "id": "jg-1",
+      "slug": "ra",
+      "singkatan": "RA",
+      "nama": "Raudhatul Athfal (RA)",
+      "tagline": "Usia 4 – 6 tahun · Calistung & dasar keislaman",
+      "rentang": "Usia 4 – 6 tahun",
+      "pimpinan_label": "Kepala RA",
+      "jumlah": "148",
+      "satuan": "siswa",
+      "lokasi": "Gedung RA, Jl. Raya Cibatu No. 12 — 3 ruang kelas dengan taman bermain",
+      "tone": "mint",
+      "gambar_url": "https://images.pexels.com/photos/35548840/pexels-photo-35548840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "intro": "Raudhatul Athfal (RA) PERSIS Cibatu membina anak usia dini dengan pendekatan bermain sambil belajar. Pembiasaan ibadah, adab, dan pengenalan huruf serta angka disampaikan melalui sentra bermain, cerita, dan lagu.",
+      "fasilitas": [
+        "Ruang kelas ramah anak",
+        "Taman bermain",
+        "Sentra seni & cerita",
+        "Musholla anak",
+        "Pemeriksaan kesehatan berkala"
+      ],
+      "istilah": {
+        "unit": "sekolah",
+        "unitKumpulan": "Daftar Sekolah",
+        "unitLain": "Sekolah Lain",
+        "peserta": "Peserta didik",
+        "pengajar": "Guru & staf",
+        "rombel": "Rombongan belajar",
+        "kegiatan": "Ekstrakurikuler",
+        "jurusan": "Jurusan",
+        "materi": "Mata pelajaran khas",
+        "statUnit": "Sekolah",
+        "statPeserta": "Siswa & Santri",
+        "kode": "NPSN",
+        "identitas": "Identitas Sekolah",
+        "status": "Swasta – PERSIS"
+      },
+      "urutan": 1,
+      "hitung_jenjang": true,
+      "aktif": true
+    },
+    {
+      "id": "jg-2",
+      "slug": "mi",
+      "singkatan": "MI",
+      "nama": "Madrasah Ibtidaiyah (MI)",
+      "tagline": "Kelas 1 – 6 · Kurikulum Kemenag & tahfizh juz 30",
+      "rentang": "Kelas 1 – 6",
+      "pimpinan_label": "Kepala Madrasah",
+      "jumlah": "386",
+      "satuan": "siswa",
+      "lokasi": "Gedung MI, Jl. Raya Cibatu No. 14 — 12 ruang kelas, perpustakaan, dan UKS",
+      "tone": "gold",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "intro": "Madrasah Ibtidaiyah PERSIS Cibatu memadukan kurikulum Kementerian Agama dengan penguatan tahfizh juz 30 dan praktik ibadah harian. Setiap kelas didampingi wali kelas yang memantau capaian belajar dan hafalan siswa.",
+      "fasilitas": [
+        "12 ruang kelas",
+        "Perpustakaan",
+        "Laboratorium komputer",
+        "UKS",
+        "Lapangan olahraga"
+      ],
+      "istilah": {
+        "unit": "sekolah",
+        "unitKumpulan": "Daftar Sekolah",
+        "unitLain": "Sekolah Lain",
+        "peserta": "Peserta didik",
+        "pengajar": "Guru & staf",
+        "rombel": "Rombongan belajar",
+        "kegiatan": "Ekstrakurikuler",
+        "jurusan": "Jurusan",
+        "materi": "Mata pelajaran khas",
+        "statUnit": "Sekolah",
+        "statPeserta": "Siswa & Santri",
+        "kode": "NPSN",
+        "identitas": "Identitas Sekolah",
+        "status": "Swasta – PERSIS"
+      },
+      "urutan": 2,
+      "hitung_jenjang": true,
+      "aktif": true
+    },
+    {
+      "id": "jg-3",
+      "slug": "mdt",
+      "singkatan": "MDT",
+      "nama": "Madrasah Diniyyah Takmiliyyah (MDT)",
+      "tagline": "Kelas sore hari · Diniyyah non-formal di bawah MI",
+      "rentang": "Kelas Awaliyah – Wustha",
+      "pimpinan_label": "Kepala MDT",
+      "jumlah": "96",
+      "satuan": "santri",
+      "lokasi": "Masjid Al-Furqan & Gedung MI, Jl. Mesjid Al-Furqan No. 3 — kelas sore hari",
+      "tone": "rose",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "intro": "Madrasah Diniyyah Takmiliyyah (MDT) PERSIS Cibatu adalah pendidikan diniyyah sore hari sebagai pelengkap pendidikan formal. Santri mempelajari dasar Al-Qur'an, fikih ibadah, akidah, akhlak, dan bahasa Arab dengan metode bandungan serta sorogan.",
+      "fasilitas": [
+        "Ruang kelas sore hari",
+        "Masjid untuk praktik ibadah",
+        "Perpustakaan kitab diniyyah",
+        "Kitab pegangan santri",
+        "Halaman & sarana bermain"
+      ],
+      "istilah": {
+        "unit": "madrasah",
+        "unitKumpulan": "Daftar Madrasah",
+        "unitLain": "Madrasah Lain",
+        "peserta": "Santri",
+        "pengajar": "Ustadz & staf",
+        "rombel": "Kelas diniyyah",
+        "kegiatan": "Kegiatan Diniyyah",
+        "jurusan": "Program",
+        "materi": "Mata pelajaran",
+        "statUnit": "Madrasah",
+        "statPeserta": "Santri",
+        "kode": "Nomor Izin",
+        "identitas": "Identitas Madrasah",
+        "status": "Non-formal – PERSIS"
+      },
+      "urutan": 3,
+      "hitung_jenjang": false,
+      "aktif": true
+    },
+    {
+      "id": "jg-4",
+      "slug": "mts",
+      "singkatan": "MTs",
+      "nama": "Madrasah Tsanawiyah (MTs)",
+      "tagline": "Kelas 7 – 9 · Kitab kuning, tahfizh, dan bahasa Arab",
+      "rentang": "Kelas 7 – 9",
+      "pimpinan_label": "Kepala Madrasah",
+      "jumlah": "342",
+      "satuan": "siswa",
+      "lokasi": "Gedung MTs, Jl. Mesjid Al-Furqan No. 3 — laboratorium IPA dan aula",
+      "tone": "rose",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "intro": "Madrasah Tsanawiyah PERSIS Cibatu membekali remaja dengan ilmu alat, kajian kitab kuning, dan bahasa Arab aktif. Kegiatan ekstrakurikuler serta pembinaan akhlak berjalan bersama program tahfizh dan kepanduan.",
+      "fasilitas": [
+        "Laboratorium IPA",
+        "Aula serbaguna",
+        "Ruang tahfizh",
+        "Perpustakaan kitab",
+        "Lapangan olahraga"
+      ],
+      "istilah": {
+        "unit": "sekolah",
+        "unitKumpulan": "Daftar Sekolah",
+        "unitLain": "Sekolah Lain",
+        "peserta": "Peserta didik",
+        "pengajar": "Guru & staf",
+        "rombel": "Rombongan belajar",
+        "kegiatan": "Ekstrakurikuler",
+        "jurusan": "Jurusan",
+        "materi": "Mata pelajaran khas",
+        "statUnit": "Sekolah",
+        "statPeserta": "Siswa & Santri",
+        "kode": "NPSN",
+        "identitas": "Identitas Sekolah",
+        "status": "Swasta – PERSIS"
+      },
+      "urutan": 4,
+      "hitung_jenjang": true,
+      "aktif": true
+    },
+    {
+      "id": "jg-5",
+      "slug": "ma",
+      "singkatan": "MA",
+      "nama": "Madrasah Aliyah (MA)",
+      "tagline": "Kelas 10 – 12 · Jurusan IPA dan IIS",
+      "rentang": "Kelas 10 – 12",
+      "pimpinan_label": "Kepala Madrasah",
+      "jumlah": "372",
+      "satuan": "siswa",
+      "lokasi": "Gedung MA, Komplek Pendidikan PERSIS Cibatu — laboratorium komputer dan bahasa",
+      "tone": "mint",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "intro": "Madrasah Aliyah PERSIS Cibatu menyiapkan lulusan yang siap melanjutkan studi ke perguruan tinggi melalui dua jurusan: Ilmu Pengetahuan Alam (IPA) dan Ilmu-Ilmu Sosial (IIS). Bimbingan karya tulis, olimpiade, dan persiapan tes masuk kampus menjadi program tetap madrasah.",
+      "fasilitas": [
+        "Laboratorium komputer",
+        "Laboratorium bahasa",
+        "Ruang karya ilmiah",
+        "Aula & masjid",
+        "Bimbingan konseling"
+      ],
+      "istilah": {
+        "unit": "sekolah",
+        "unitKumpulan": "Daftar Sekolah",
+        "unitLain": "Sekolah Lain",
+        "peserta": "Peserta didik",
+        "pengajar": "Guru & staf",
+        "rombel": "Rombongan belajar",
+        "kegiatan": "Ekstrakurikuler",
+        "jurusan": "Jurusan",
+        "materi": "Mata pelajaran khas",
+        "statUnit": "Sekolah",
+        "statPeserta": "Siswa & Santri",
+        "kode": "NPSN",
+        "identitas": "Identitas Sekolah",
+        "status": "Swasta – PERSIS"
+      },
+      "urutan": 5,
+      "hitung_jenjang": true,
+      "aktif": true
+    },
+    {
+      "id": "jg-6",
+      "slug": "pt",
+      "singkatan": "PT",
+      "nama": "Perguruan Tinggi",
+      "tagline": "Program sarjana (S1) · Program studi PAI & Ekosy",
+      "rentang": "Program S1 · 8 semester",
+      "pimpinan_label": "Rektor",
+      "jumlah": "312",
+      "satuan": "mahasiswa",
+      "lokasi": "Gedung Perguruan Tinggi, Jl. Pesantren No. 7 — ruang kuliah, perpustakaan, dan asrama mahasiswa",
+      "tone": "gold",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "intro": "Perguruan Tinggi PERSIS Cibatu menyelenggarakan pendidikan tinggi agama Islam dengan dua program studi: Pendidikan Agama Islam (PAI) dan Ekonomi Syari'ah (Ekosy). Perkuliahan dibimbing para dosen dan diperkuat praktik lapangan, kajian ilmiah, serta pembinaan tahfizh mahasiswa.",
+      "fasilitas": [
+        "Ruang kuliah",
+        "Perpustakaan & ruang baca",
+        "Laboratorium komputer",
+        "Ruang sidang & seminar",
+        "Asrama mahasiswa"
+      ],
+      "istilah": {
+        "unit": "kampus",
+        "unitKumpulan": "Daftar Kampus",
+        "unitLain": "Kampus Lain",
+        "peserta": "Mahasiswa",
+        "pengajar": "Dosen & staf",
+        "rombel": "Kelas kuliah",
+        "kegiatan": "Kegiatan Mahasiswa",
+        "jurusan": "Program Studi",
+        "materi": "Mata kuliah",
+        "statUnit": "Kampus",
+        "statPeserta": "Mahasiswa",
+        "kode": "Kode PT",
+        "identitas": "Identitas Kampus",
+        "status": "Perguruan Tinggi – PERSIS"
+      },
+      "urutan": 6,
+      "hitung_jenjang": true,
+      "aktif": true
+    }
+  ],
+  "unit_pendidikan": [
+    {
+      "id": "sk-1",
+      "jenjang_id": "jg-1",
+      "slug": "ra-01-cibatu",
+      "nomor": "01",
+      "nama": "RA PERSIS 01 Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Jl. Raya Cibatu No. 12, Komplek Pendidikan PERSIS, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Hj. Euis Rohayati, S.Pd.I",
+      "jumlah_peserta": 52,
+      "rombel": 3,
+      "guru": 8,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7801",
+      "email": "ra01@persiscibatu.or.id",
+      "npsn": "20219001",
+      "berdiri": 1998,
+      "jam": "Senin – Kamis & Sabtu, 07.30 – 11.30 WIB",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Praktik wudhu & salat",
+        "Hafalan surat pendek",
+        "Bermain peran & bercerita"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-2",
+      "jenjang_id": "jg-1",
+      "slug": "ra-02-cibatu-girang",
+      "nomor": "02",
+      "nama": "RA PERSIS 02 Cibatu Girang",
+      "daerah": "Cibatu Girang",
+      "alamat": "Jl. Cibatu Girang No. 45, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Neng Siti Nurjanah, S.Pd.",
+      "jumlah_peserta": 38,
+      "rombel": 2,
+      "guru": 6,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7802",
+      "email": "ra02@persiscibatu.or.id",
+      "npsn": "20219002",
+      "berdiri": 2003,
+      "jam": "Senin – Jumat, 07.30 – 11.00 WIB",
+      "gambar_url": "https://images.pexels.com/photos/35548840/pexels-photo-35548840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Hafalan surat pendek",
+        "Bermain peran & bercerita",
+        "Seni mewarnai"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-3",
+      "jenjang_id": "jg-1",
+      "slug": "ra-sindangsari",
+      "nomor": "03",
+      "nama": "RA PERSIS Sindangsari",
+      "daerah": "Sindangsari",
+      "alamat": "Jl. Sindangsari No. 8, Desa Sindangsari, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Yani Suryani, S.Pd.I",
+      "jumlah_peserta": 34,
+      "rombel": 2,
+      "guru": 5,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7803",
+      "email": "ra03@persiscibatu.or.id",
+      "npsn": "20219003",
+      "berdiri": 2010,
+      "jam": "Senin – Jumat, 07.30 – 11.00 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Bermain peran & bercerita",
+        "Seni mewarnai",
+        "Senam & permainan tradisional"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-4",
+      "jenjang_id": "jg-1",
+      "slug": "ra-padasuka",
+      "nomor": "04",
+      "nama": "RA PERSIS Padasuka",
+      "daerah": "Padasuka",
+      "alamat": "Kp. Padasuka, Desa Padasuka, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Lilis Karlina, S.Pd.",
+      "jumlah_peserta": 24,
+      "rombel": 2,
+      "guru": 4,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7804",
+      "email": "ra04@persiscibatu.or.id",
+      "npsn": "20219004",
+      "berdiri": 2013,
+      "jam": "Senin – Kamis, 07.30 – 10.30 WIB",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Seni mewarnai",
+        "Senam & permainan tradisional",
+        "Praktik wudhu & salat"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-5",
+      "jenjang_id": "jg-2",
+      "slug": "mi-01-cibatu",
+      "nomor": "05",
+      "nama": "MI PERSIS 01 Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Jl. Raya Cibatu No. 14, Komplek Pendidikan PERSIS, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Drs. H. Endang Suryana, M.Pd.",
+      "jumlah_peserta": 142,
+      "rombel": 7,
+      "guru": 16,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7811",
+      "email": "mi01@persiscibatu.or.id",
+      "npsn": "20205011",
+      "berdiri": 1965,
+      "jam": "Senin – Sabtu, 07.00 – 13.30 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Marawis",
+        "Bahasa Arab dasar",
+        "Pramuka"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-6",
+      "jenjang_id": "jg-2",
+      "slug": "mi-02-cibatu",
+      "nomor": "06",
+      "nama": "MI PERSIS 02 Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Jl. Mesjid Al-Furqan No. 5, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Ahmad Fauzi, S.Pd.I",
+      "jumlah_peserta": 108,
+      "rombel": 5,
+      "guru": 12,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7812",
+      "email": "mi02@persiscibatu.or.id",
+      "npsn": "20205012",
+      "berdiri": 1978,
+      "jam": "Senin – Sabtu, 07.00 – 13.00 WIB",
+      "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Bahasa Arab dasar",
+        "Pramuka",
+        "Tahfizh juz 30"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-7",
+      "jenjang_id": "jg-2",
+      "slug": "mi-sindangsari",
+      "nomor": "07",
+      "nama": "MI PERSIS Sindangsari",
+      "daerah": "Sindangsari",
+      "alamat": "Jl. Sindangsari No. 12, Desa Sindangsari, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Rina Marlina, S.Pd.I",
+      "jumlah_peserta": 76,
+      "rombel": 4,
+      "guru": 9,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7813",
+      "email": "mi03@persiscibatu.or.id",
+      "npsn": "20205013",
+      "berdiri": 1990,
+      "jam": "Senin – Jumat, 07.00 – 13.00 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1589104760192-ccab0ce0d90f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Pramuka",
+        "Tahfizh juz 30",
+        "Kaligrafi"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-8",
+      "jenjang_id": "jg-2",
+      "slug": "mi-mekarsari",
+      "nomor": "08",
+      "nama": "MI PERSIS Mekarsari",
+      "daerah": "Mekarsari",
+      "alamat": "Kp. Mekarsari, Desa Mekarsari, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Dedi Supriadi, S.Pd.",
+      "jumlah_peserta": 60,
+      "rombel": 3,
+      "guru": 7,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7814",
+      "email": "mi04@persiscibatu.or.id",
+      "npsn": "20205014",
+      "berdiri": 2005,
+      "jam": "Senin – Jumat, 07.00 – 12.30 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1667456416191-43ba057635c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Tahfizh juz 30",
+        "Kaligrafi",
+        "Futsal"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-9",
+      "jenjang_id": "jg-4",
+      "slug": "mts-01-cibatu",
+      "nomor": "09",
+      "nama": "MTs PERSIS 01 Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Jl. Mesjid Al-Furqan No. 3, Komplek Pendidikan PERSIS, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "H. Ujang Saepudin, M.Pd.I",
+      "jumlah_peserta": 168,
+      "rombel": 6,
+      "guru": 18,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7821",
+      "email": "mts01@persiscibatu.or.id",
+      "npsn": "20219021",
+      "berdiri": 1972,
+      "jam": "Senin – Sabtu, 07.00 – 14.30 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1601191362988-ac6ebec629c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Paskibra",
+        "Futsal",
+        "Karya ilmiah remaja"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-10",
+      "jenjang_id": "jg-4",
+      "slug": "mts-sindangsari",
+      "nomor": "10",
+      "nama": "MTs PERSIS Sindangsari",
+      "daerah": "Sindangsari",
+      "alamat": "Jl. Sindangsari No. 20, Desa Sindangsari, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Iwan Setiawan, S.Pd.I",
+      "jumlah_peserta": 104,
+      "rombel": 4,
+      "guru": 11,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7822",
+      "email": "mts02@persiscibatu.or.id",
+      "npsn": "20219022",
+      "berdiri": 1988,
+      "jam": "Senin – Jumat, 07.00 – 14.00 WIB",
+      "gambar_url": "https://images.pexels.com/photos/38973253/pexels-photo-38973253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Futsal",
+        "Karya ilmiah remaja",
+        "Muhadatsah"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-11",
+      "jenjang_id": "jg-4",
+      "slug": "mts-padasuka",
+      "nomor": "11",
+      "nama": "MTs PERSIS Padasuka",
+      "daerah": "Padasuka",
+      "alamat": "Kp. Padasuka, Desa Padasuka, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Nurhayati, S.Pd.",
+      "jumlah_peserta": 70,
+      "rombel": 3,
+      "guru": 8,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7823",
+      "email": "mts03@persiscibatu.or.id",
+      "npsn": "20219023",
+      "berdiri": 2001,
+      "jam": "Senin – Jumat, 07.00 – 13.30 WIB",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Karya ilmiah remaja",
+        "Muhadatsah",
+        "Kitab kuning"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-12",
+      "jenjang_id": "jg-5",
+      "slug": "ma-01-cibatu",
+      "nomor": "12",
+      "nama": "MA PERSIS 01 Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Jl. Raya Cibatu No. 16, Komplek Pendidikan PERSIS, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Dr. H. Asep Saepulloh, M.A.",
+      "jumlah_peserta": 224,
+      "rombel": 8,
+      "guru": 24,
+      "akreditasi": "A",
+      "kontak": "0812-3456-7831",
+      "email": "ma01@persiscibatu.or.id",
+      "npsn": "20205031",
+      "berdiri": 1985,
+      "jam": "Senin – Sabtu, 07.00 – 15.00 WIB",
+      "gambar_url": "https://images.pexels.com/photos/35548840/pexels-photo-35548840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [
+        "ipa",
+        "iis"
+      ],
+      "ekstrakurikuler": [
+        "Jurnalistik",
+        "Karya tulis ilmiah",
+        "Olimpiade sains"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-13",
+      "jenjang_id": "jg-5",
+      "slug": "ma-sindangsari",
+      "nomor": "13",
+      "nama": "MA PERSIS Sindangsari",
+      "daerah": "Sindangsari",
+      "alamat": "Jl. Sindangsari No. 24, Desa Sindangsari, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Yusuf Hidayat, S.Si.",
+      "jumlah_peserta": 148,
+      "rombel": 5,
+      "guru": 15,
+      "akreditasi": "B",
+      "kontak": "0812-3456-7832",
+      "email": "ma02@persiscibatu.or.id",
+      "npsn": "20205032",
+      "berdiri": 1996,
+      "jam": "Senin – Jumat, 07.00 – 14.30 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [
+        "iis"
+      ],
+      "ekstrakurikuler": [
+        "Karya tulis ilmiah",
+        "Olimpiade sains",
+        "Muhadatsah & debat"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-14",
+      "jenjang_id": "jg-6",
+      "slug": "pt-kampus-putra",
+      "nomor": "14",
+      "nama": "Perguruan Tinggi PERSIS Cibatu — Kampus Putra",
+      "daerah": "Cibatu",
+      "alamat": "Gedung Perguruan Tinggi, Jl. Pesantren No. 7, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Dr. H. Abdul Hakim, Lc., M.A.",
+      "jumlah_peserta": 168,
+      "rombel": 4,
+      "guru": 26,
+      "akreditasi": "Baik Sekali",
+      "kontak": "0812-3456-7841",
+      "email": "pt.putra@persiscibatu.or.id",
+      "npsn": "PT-0412",
+      "berdiri": 2016,
+      "jam": "Senin – Jumat, 07.30 – 16.00 WIB",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "jurusan": [
+        "pai",
+        "ekosy"
+      ],
+      "ekstrakurikuler": [
+        "Halaqah tahfizh mahasiswa",
+        "Kajian ilmiah & jurnal kampus",
+        "Muhadatsah Arab & Inggris"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-15",
+      "jenjang_id": "jg-6",
+      "slug": "pt-kampus-putri",
+      "nomor": "15",
+      "nama": "Perguruan Tinggi PERSIS Cibatu — Kampus Putri",
+      "daerah": "Cibatu",
+      "alamat": "Gedung Kampus Putri, Jl. Pesantren No. 9, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Dr. Hj. Nenden Hasanah, Lc., M.A.",
+      "jumlah_peserta": 144,
+      "rombel": 4,
+      "guru": 22,
+      "akreditasi": "Baik Sekali",
+      "kontak": "0812-3456-7842",
+      "email": "pt.putri@persiscibatu.or.id",
+      "npsn": "PT-0413",
+      "berdiri": 2018,
+      "jam": "Senin – Jumat, 07.30 – 16.00 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [
+        "pai",
+        "ekosy"
+      ],
+      "ekstrakurikuler": [
+        "Halaqah tahfizh mahasiswa",
+        "Kewirausahaan syariah",
+        "Muhadatsah Arab & Inggris"
+      ],
+      "aktif": true
+    },
+    {
+      "id": "sk-16",
+      "jenjang_id": "jg-3",
+      "slug": "mdt-persis-cibatu",
+      "nomor": "16",
+      "nama": "MDT PERSIS Cibatu",
+      "daerah": "Cibatu",
+      "alamat": "Masjid Al-Furqan, Jl. Mesjid Al-Furqan No. 3, Desa Cibatu, Kec. Cibatu, Kab. Garut",
+      "pimpinan": "Ust. Deden Supriatna, S.Pd.I",
+      "jumlah_peserta": 96,
+      "rombel": 6,
+      "guru": 9,
+      "akreditasi": "Terdaftar",
+      "kontak": "0812-3456-7851",
+      "email": "mdt@persiscibatu.or.id",
+      "npsn": "MDT-2024-012",
+      "berdiri": 2009,
+      "jam": "Senin – Kamis & Sabtu, 14.00 – 17.00 WIB",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "jurusan": [],
+      "ekstrakurikuler": [
+        "Tahfizh juz 30",
+        "Praktik ibadah harian",
+        "Muhadatsah dasar"
+      ],
+      "aktif": true
+    }
+  ],
+  "jurusan": [
+    {
+      "id": "ju-1",
+      "jenjang_id": "jg-5",
+      "slug": "ipa",
+      "singkatan": "IPA",
+      "nama": "Ilmu Pengetahuan Alam (IPA)",
+      "intro": "Jurusan Ilmu Pengetahuan Alam (IPA) menyiapkan siswa melanjutkan studi di bidang kedokteran, teknik, dan sains. Biologi, fisika, dan kimia diperkuat praktikum di laboratorium serta pembinaan olimpiade sains sejak kelas 10.",
+      "fokus": [
+        "Biologi & praktikum laboratorium",
+        "Fisika dan matematika lanjutan",
+        "Kimia dasar & analisis",
+        "Bimbingan olimpiade sains",
+        "Karya tulis ilmiah remaja"
+      ],
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "ukt": null,
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "ju-2",
+      "jenjang_id": "jg-5",
+      "slug": "iis",
+      "singkatan": "IIS",
+      "nama": "Ilmu-Ilmu Sosial (IIS)",
+      "intro": "Jurusan Ilmu-Ilmu Sosial (IIS) mendalami sejarah, sosiologi, ekonomi, dan geografi dengan pendekatan kajian sosial keislaman. Siswa dilatih berpikir kritis dan meneliti melalui proyek sosial serta kunjungan studi.",
+      "fokus": [
+        "Sejarah & peradaban Islam",
+        "Sosiologi dan antropologi",
+        "Ekonomi & akuntansi dasar",
+        "Geografi dan lingkungan",
+        "Proyek penelitian sosial"
+      ],
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ukt": null,
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "ju-3",
+      "jenjang_id": "jg-6",
+      "slug": "pai",
+      "singkatan": "PAI",
+      "nama": "Pendidikan Agama Islam (PAI)",
+      "intro": "Program studi Pendidikan Agama Islam (PAI) membina mahasiswa menjadi pendidik agama yang menguasai ilmu-ilmu keislaman, metode pengajaran, dan penyusunan kurikulum madrasah.",
+      "fokus": [
+        "Tafsir & Ulumul Qur'an",
+        "Hadits & Musthalah Hadits",
+        "Fiqih & Ushul Fiqih",
+        "Metodologi Pembelajaran",
+        "Praktik Mengajar (Tadris) di Madrasah"
+      ],
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ukt": "Rp 850.000 / semester",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "ju-4",
+      "jenjang_id": "jg-6",
+      "slug": "ekosy",
+      "singkatan": "Ekosy",
+      "nama": "Ekonomi Syari'ah (Ekosy)",
+      "intro": "Program studi Ekonomi Syari'ah (Ekosy) mengkaji ekonomi Islam, fikih muamalah, dan lembaga keuangan syariah sehingga lulusan siap mengelola usaha maupun bekerja di lembaga keuangan syariah.",
+      "fokus": [
+        "Fikih Muamalah & Ekonomi Islam",
+        "Akuntansi Syariah",
+        "Lembaga Keuangan Syariah",
+        "Kewirausahaan & Manajemen Usaha",
+        "Studi Lapangan Lembaga Keuangan Syariah"
+      ],
+      "gambar_url": "https://images.pexels.com/photos/35548840/pexels-photo-35548840.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "ukt": "Rp 950.000 / semester",
+      "urutan": 4,
+      "aktif": true
+    }
+  ],
+  "kategori": [
+    {
+      "id": "kt-berita-akademik",
+      "jenis": "berita",
+      "nama": "Akademik",
+      "slug": "akademik",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-dakwah",
+      "jenis": "berita",
+      "nama": "Dakwah",
+      "slug": "dakwah",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-fasilitas",
+      "jenis": "berita",
+      "nama": "Fasilitas",
+      "slug": "fasilitas",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-kesiswaan",
+      "jenis": "berita",
+      "nama": "Kesiswaan",
+      "slug": "kesiswaan",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-lembaga",
+      "jenis": "berita",
+      "nama": "Lembaga",
+      "slug": "lembaga",
+      "urutan": 5,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-prestasi",
+      "jenis": "berita",
+      "nama": "Prestasi",
+      "slug": "prestasi",
+      "urutan": 6,
+      "aktif": true
+    },
+    {
+      "id": "kt-berita-sosial",
+      "jenis": "berita",
+      "nama": "Sosial",
+      "slug": "sosial",
+      "urutan": 7,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-al-qur-an",
+      "jenis": "artikel",
+      "nama": "Al-Qur'an",
+      "slug": "al-qur-an",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-aqidah",
+      "jenis": "artikel",
+      "nama": "Aqidah",
+      "slug": "aqidah",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-fikih",
+      "jenis": "artikel",
+      "nama": "Fikih",
+      "slug": "fikih",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-keluarga",
+      "jenis": "artikel",
+      "nama": "Keluarga",
+      "slug": "keluarga",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-sirah",
+      "jenis": "artikel",
+      "nama": "Sirah",
+      "slug": "sirah",
+      "urutan": 5,
+      "aktif": true
+    },
+    {
+      "id": "kt-artikel-tarbiyah",
+      "jenis": "artikel",
+      "nama": "Tarbiyah",
+      "slug": "tarbiyah",
+      "urutan": 6,
+      "aktif": true
+    },
+    {
+      "id": "kt-pengumuman-akademik",
+      "jenis": "pengumuman",
+      "nama": "Akademik",
+      "slug": "akademik",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "kt-pengumuman-dakwah",
+      "jenis": "pengumuman",
+      "nama": "Dakwah",
+      "slug": "dakwah",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "kt-pengumuman-spmb",
+      "jenis": "pengumuman",
+      "nama": "SPMB",
+      "slug": "spmb",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "kt-pengumuman-umum",
+      "jenis": "pengumuman",
+      "nama": "Umum",
+      "slug": "umum",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "kt-agenda-dakwah",
+      "jenis": "agenda",
+      "nama": "Dakwah",
+      "slug": "dakwah",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "kt-agenda-internal",
+      "jenis": "agenda",
+      "nama": "Internal",
+      "slug": "internal",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "kt-agenda-kesiswaan",
+      "jenis": "agenda",
+      "nama": "Kesiswaan",
+      "slug": "kesiswaan",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "kt-agenda-spmb",
+      "jenis": "agenda",
+      "nama": "SPMB",
+      "slug": "spmb",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "kt-agenda-umum",
+      "jenis": "agenda",
+      "nama": "Umum",
+      "slug": "umum",
+      "urutan": 5,
+      "aktif": true
+    },
+    {
+      "id": "kt-donasi-pembangunan",
+      "jenis": "donasi",
+      "nama": "Pembangunan",
+      "slug": "pembangunan",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "kt-donasi-pendidikan",
+      "jenis": "donasi",
+      "nama": "Pendidikan",
+      "slug": "pendidikan",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "kt-donasi-sarana-ibadah",
+      "jenis": "donasi",
+      "nama": "Sarana Ibadah",
+      "slug": "sarana-ibadah",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "kt-donasi-sosial",
+      "jenis": "donasi",
+      "nama": "Sosial",
+      "slug": "sosial",
+      "urutan": 4,
+      "aktif": true
+    }
+  ],
+  "berita": [
+    {
+      "id": "nw-1",
+      "slug": "santri-juara-mtq-kabupaten-garut",
+      "judul": "Santri PC PERSIS Cibatu Raih Juara I MTQ Tingkat Kabupaten Garut",
+      "tanggal": "2026-10-03",
+      "kategori": "Prestasi",
+      "penulis": "Humas PC PERSIS Cibatu",
+      "gambar_url": "https://images.pexels.com/photos/38973253/pexels-photo-38973253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "dibaca": 4820,
+      "ringkasan": "Ananda Rizky Nurhakim, santri kelas XI, berhasil menyisihkan 42 peserta dari berbagai lembaga pendidikan Islam di Garut.",
+      "isi": [
+        "Ananda Rizky Nurhakim, santri kelas XI Madrasah Aliyah PC PERSIS Cibatu, berhasil meraih juara I cabang tilawah dewasa pada Musabaqah Tilawatil Qur'an tingkat Kabupaten Garut. Ia menyisihkan 42 peserta dari berbagai lembaga pendidikan Islam dan pesantren di seluruh Garut.",
+        "Penilaian mencakup tajwid, lagu, dan adab pembacaan. Dewan hakim menilai bacaan Ananda Rizky stabil sejak babak penyisihan hingga final, terutama pada maqam bayati dan hijaz yang menjadi kekuatannya.",
+        "Kepala Madrasah Aliyah menyampaikan bahwa capaian ini adalah buah pembinaan tahsin dan tahfizh harian yang berjalan sejak kelas X. Lembaga berencana mengirimkan kembali para juara pada MTQ tingkat provinsi Jawa Barat tahun depan.",
+        "Kepala Kantor Kementerian Agama Kabupaten Garut menyerahkan trofi dan piagam kepada para juara pada upacara penutupan. Ia menekankan bahwa MTQ bukan sekadar lomba, melainkan sarana pembinaan generasi Qur'ani di lingkungan pendidikan.",
+        "Pembina tahfizh lembaga menyebut persiapan Ananda Rizky berlangsung sekitar dua bulan dengan latihan harian usai pembelajaran, meliputi muraja'ah hafalan, latihan pernapasan, dan penguatan tajwid.",
+        "Setelah kompetisi, santri tersebut tetap menjalani kegiatan belajar seperti biasa dan akan mendampingi santri junior pada pembinaan tilawah pekanan di masjid lembaga.",
+        "Lembaga mengucapkan terima kasih kepada para guru, musyrif, dan wali santri atas dukungan yang diberikan. Doa serta dukungan serupa diharapkan menyertai persiapan menuju MTQ tingkat provinsi."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-2",
+      "slug": "kunjungan-studi-banding-pc-persis-sumedang",
+      "judul": "Kunjungan Studi Banding dari PC PERSIS Sumedang",
+      "tanggal": "2026-09-29",
+      "kategori": "Lembaga",
+      "penulis": "Sekretariat PC PERSIS Cibatu",
+      "gambar_url": "https://images.unsplash.com/photo-1667456416191-43ba057635c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 3610,
+      "ringkasan": "Delegasi membahas pengelolaan ma'had, kurikulum tahfidz, dan tata kelola keuangan lembaga pendidikan.",
+      "isi": [
+        "Sebanyak 24 pengurus dan kepala sekolah dari PC PERSIS Sumedang berkunjung ke kompleks pendidikan PC PERSIS Cibatu. Delegasi diterima pimpinan cabang dan para kepala jenjang di Aula Utama.",
+        "Pertemuan membahas pengelolaan ma'had, penyusunan kurikulum tahfidz, tata kelola keuangan lembaga, serta pembinaan guru baru. Diskusi berlangsung dua arah dan dilanjutkan dengan peninjauan ruang kelas, asrama, dan masjid.",
+        "Pimpinan Cabang menyambut baik silaturahim ini dan berharap kerja sama antar cabang PERSIS terus berlanjut, terutama dalam penguatan mutu pendidikan diniyyah dan kaderisasi pengajar.",
+        "Dalam sesi peninjauan, delegasi melihat langsung kegiatan belajar di ruang kelas, asrama santri, serta laboratorium komputer dan robotika yang baru diresmikan.",
+        "Sebagai penutup, kedua cabang menyepakati kerja sama bidang pelatihan guru dan pertukaran pengalaman kurikulum. Pertemuan lanjutan direncanakan berlangsung di Sumedang pada semester depan."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-3",
+      "slug": "pelatihan-guru-bahasa-arab-kontemporer",
+      "judul": "Pelatihan Guru: Metode Pembelajaran Bahasa Arab Kontemporer",
+      "tanggal": "2026-09-26",
+      "kategori": "Akademik",
+      "penulis": "Bidang Pendidikan",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 2985,
+      "ringkasan": "Diikuti 68 guru dari semua jenjang, pelatihan menekankan pendekatan komunikatif dan praktik kelas dua arah.",
+      "isi": [
+        "Sebanyak 68 guru dari seluruh jenjang mengikuti pelatihan metode pembelajaran bahasa Arab yang digelar bidang pendidikan PC PERSIS Cibatu. Kegiatan berlangsung tiga hari dengan pendekatan komunikatif dan praktik kelas dua arah.",
+        "Peserta dilatih menyusun skenario pembelajaran, memanfaatkan media sederhana, dan menyusun asesmen yang mengukur kemampuan berbicara, bukan hanya hafalan kosakata. Setiap guru mempraktikkan langsung materi di depan peserta lain untuk mendapat masukan.",
+        "Hasil pelatihan akan diterapkan pada semester berikutnya dengan pendampingan berkala dari tim kurikulum, sehingga perbaikan mutu pembelajaran bahasa Arab dapat terukur dari kelas ke kelas.",
+        "Selain materi kelas, peserta menyusun perangkat ajar sederhana untuk diuji coba pada kelas masing-masing. Hasil uji coba dibahas kembali dalam pertemuan lanjutan bulan depan."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-4",
+      "slug": "bakti-sosial-ramadhan-500-paket-sembako",
+      "judul": "Bakti Sosial Ramadhan: 500 Paket Sembako untuk Warga Cibatu",
+      "tanggal": "2026-09-21",
+      "kategori": "Sosial",
+      "penulis": "Bidang Sosial",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 2410,
+      "ringkasan": "Program tahunan bidang sosial PC PERSIS Cibatu menyasar delapan desa di wilayah Kecamatan Cibatu.",
+      "isi": [
+        "Bidang sosial PC PERSIS Cibatu menyalurkan 500 paket sembako kepada warga di delapan desa wilayah Kecamatan Cibatu menjelang akhir Ramadhan. Paket berisi beras, minyak, gula, dan kebutuhan pokok harian.",
+        "Penyaluran melibatkan pengurus cabang, guru, dan relawan santri yang mendata penerima bersama aparat desa. Data penerima disusun dari usulan RT dan RW agar bantuan tepat sasaran, terutama untuk janda, lansia, dan keluarga prasejahtera.",
+        "Kegiatan ini dibiayai dari infak jamaah dan donasi wali santri. Lembaga mengucapkan terima kasih atas kepercayaan tersebut dan berkomitmen menyampaikan laporan penyaluran secara terbuka."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-5",
+      "slug": "peresmian-laboratorium-komputer-dan-robotika",
+      "judul": "Peresmian Laboratorium Komputer dan Robotika",
+      "tanggal": "2026-09-16",
+      "kategori": "Fasilitas",
+      "penulis": "Sekretariat PC PERSIS Cibatu",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "dibaca": 1975,
+      "ringkasan": "Fasilitas baru berisi 40 unit komputer ini dipakai untuk pembelajaran informatika dan ekstrakurikuler robotika.",
+      "isi": [
+        "PC PERSIS Cibatu meresmikan laboratorium komputer dan robotika berisi 40 unit komputer lengkap dengan jaringan internet. Fasilitas ini dipakai untuk pembelajaran informatika di MTs dan MA, serta ekstrakurikuler robotika.",
+        "Ruang laboratorium ditata dengan penataan meja berkelompok agar guru dapat mendampingi praktik siswa secara langsung. Tersedia juga satu area kerja khusus untuk penyusunan dan pengujian proyek robotik.",
+        "Pengelolaan laboratorium diserahkan kepada tim teknologi pendidikan dengan jadwal pemakaian per kelas. Sekolah berencana menambah modul sensor dan kit mikrokontroler secara bertahap sesuai kebutuhan praktik."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-6",
+      "slug": "pekan-olahraga-dan-seni-antarjenjang",
+      "judul": "Pekan Olahraga dan Seni Antarjenjang Berlangsung Meriah",
+      "tanggal": "2026-09-09",
+      "kategori": "Kesiswaan",
+      "penulis": "Bidang Kesiswaan",
+      "gambar_url": "https://images.unsplash.com/photo-1589104760192-ccab0ce0d90f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 1320,
+      "ringkasan": "Enam belas cabang lomba dipertandingkan selama empat hari, ditutup dengan malam penampilan seni santri.",
+      "isi": [
+        "Pekan Olahraga dan Seni antarjenjang berlangsung empat hari dengan 16 cabang lomba, mulai dari futsal, voli, bulu tangkis, hingga kaligrafi, pidato tiga bahasa, dan tahfizh.",
+        "Setiap jenjang mengirimkan kontingen terbaiknya, termasuk peserta dari program MDT sore hari. Pertandingan berlangsung sportif dan dimeriahkan dukungan wali santri yang hadir di lapangan.",
+        "Acara ditutup dengan malam penampilan seni santri berupa nasyid, tilawah, dan teater bertema adab menuntut ilmu. Juara umum diraih Madrasah Tsanawiyah dengan selisih dua poin dari MA."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-7",
+      "slug": "tablig-akbar-dan-silaturahim-jamaah-persis",
+      "judul": "Tablig Akbar dan Silaturahim Jamaah PERSIS Cibatu",
+      "tanggal": "2026-09-02",
+      "kategori": "Dakwah",
+      "penulis": "Bidang Dakwah",
+      "gambar_url": "https://images.unsplash.com/photo-1667456416191-43ba057635c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 1685,
+      "ringkasan": "Kegiatan dihadiri lebih dari 1.200 jamaah dari Cibatu dan kecamatan sekitar, diisi kajian dan tanya jawab fiqih.",
+      "isi": [
+        "Bidang dakwah PC PERSIS Cibatu menggelar tablig akbar dan silaturahim jamaah yang dihadiri lebih dari 1.200 peserta dari Cibatu dan kecamatan sekitar. Acara berlangsung di Masjid Al-Furqan Cibatu.",
+        "Kajian membahas kedudukan ilmu dan adab dalam kehidupan sehari-hari, dilanjutkan sesi tanya jawab fiqih yang dipandu pengurus cabang. Jamaah juga mendapat kesempatan berkonsultasi langsung dengan para asatidz.",
+        "Kegiatan seperti ini direncanakan berlangsung berkala sebagai sarana pembinaan jamaah sekaligus mempererat ukhuwah antarwarga dan wali santri di lingkungan lembaga pendidikan."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-8",
+      "slug": "wisuda-hafizh-30-juz-angkatan-tahun-ini",
+      "judul": "Wisuda 12 Santri Hafizh 30 Juz Angkatan Tahun Ini",
+      "tanggal": "2026-08-26",
+      "kategori": "Prestasi",
+      "penulis": "Bidang Tahfizh",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "dibaca": 1450,
+      "ringkasan": "Prosesi wisuda berlangsung khidmat dengan pengujian hafalan terbuka di hadapan penguji dan wali santri.",
+      "isi": [
+        "Sebanyak 12 santri dan santriwati diwisuda sebagai hafizh 30 juz pada angkatan tahun ini. Prosesi berlangsung khidmat dengan pengujian hafalan terbuka di hadapan penguji dan wali santri.",
+        "Setiap peserta menyetorkan beberapa juz pilihan secara acak untuk memastikan mutu hafalan, disertai penilaian tajwid dan kelancaran. Rata-rata masa penyelesaian hafalan berkisar tiga sampai empat tahun sejak jenjang MTs.",
+        "Lembaga memberikan apresiasi berupa piagam dan beasiswa lanjutan bagi yang melanjutkan ke perguruan tinggi. Program tahfizh tetap dibuka bagi santri baru dengan kelas persiapan dan pendampingan musyrif."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-9",
+      "slug": "kurikulum-tahfidz-terpadu-mulai-semester-baru",
+      "judul": "Kurikulum Tahfidz Terpadu Mulai Diterapkan Semester Baru",
+      "tanggal": "2026-08-19",
+      "kategori": "Akademik",
+      "penulis": "Bidang Kurikulum",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "dibaca": 1120,
+      "ringkasan": "Setiap jenjang memiliki target hafalan bertingkat, dipantau melalui buku mutaba'ah harian dan laporan daring.",
+      "isi": [
+        "Mulai semester baru, lembaga menerapkan kurikulum tahfidz terpadu dengan target hafalan bertingkat untuk tiap jenjang, mulai dari juz 30 di tingkat dasar hingga 10 juz di jenjang menengah.",
+        "Setiap santri memakai buku mutaba'ah harian yang mencatat setoran, muraja'ah, dan catatan musyrif. Wali santri dapat memantau capaian tersebut melalui laporan berkala dari wali kelas.",
+        "Tim kurikulum menilai pemisahan target per jenjang membuat pembinaan lebih terukur, sehingga santri yang cepat dapat memperoleh program pengayaan sementara yang perlu pendampingan mendapat kelas perbaikan."
+      ],
+      "sorotan": false,
+      "terbit": true
+    },
+    {
+      "id": "nw-10",
+      "slug": "rapat-kerja-penyusunan-rkas-lembaga",
+      "judul": "Rapat Kerja Penyusunan RKAS dan Program Tahun Berjalan",
+      "tanggal": "2026-08-11",
+      "kategori": "Lembaga",
+      "penulis": "Sekretariat PC PERSIS Cibatu",
+      "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "dibaca": 890,
+      "ringkasan": "Seluruh kepala jenjang, bendahara, dan bidang menyusun rencana kegiatan serta anggaran satu tahun ke depan.",
+      "isi": [
+        "Seluruh kepala jenjang, bendahara, dan perwakilan bidang mengikuti rapat kerja penyusunan rencana kegiatan dan anggaran sekolah (RKAS) untuk tahun berjalan. Rapat berlangsung dua hari di aula lembaga.",
+        "Pembahasan mencakup program pembelajaran, pengembangan sarana, kesejahteraan guru, serta alokasi beasiswa bagi santri kurang mampu. Setiap jenjang memaparkan usulan dan prioritas kegiatannya.",
+        "Hasil rapat kerja menjadi dasar pelaksanaan program sepanjang tahun dan akan dievaluasi setiap triwulan. Laporan penggunaan anggaran disampaikan kepada pimpinan cabang dan dewan penasihat."
+      ],
+      "sorotan": false,
+      "terbit": true
+    }
+  ],
+  "artikel": [
+    {
+      "id": "ar-1",
+      "slug": "adab-menuntut-ilmu-sebelum-pelajaran",
+      "judul": "Adab Menuntut Ilmu Lebih Dahulu daripada Pelajaran",
+      "kategori": "Tarbiyah",
+      "penulis": "Ust. H. Ahmad Fauzan, Lc., M.A.",
+      "tanggal": "2026-10-02",
+      "menit_baca": 7,
+      "dibaca": 3420,
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Para ulama menyusun kitab tentang adab sebelum menyusun kitab tentang ilmu. Adab bukan pelengkap, melainkan pintu masuk keberkahan sebuah ilmu.",
+      "isi": [
+        "Para ulama terdahulu memiliki kebiasaan yang menarik: sebelum menulis kitab tentang ilmu, mereka menulis kitab tentang adab. Imam An-Nawawi misalnya menulis at-Tibyan fi Adabi Hamalatil Qur'an, dan Imam al-Khatib al-Baghdadi menulis al-Jami' li Akhlaqir Rawi. Ini menunjukkan bahwa adab bukan pelengkap, melainkan pintu masuk.",
+        "Adab kepada ilmu berarti menempatkan ilmu pada kedudukannya yang mulia: datang tepat waktu, menyiapkan alat tulis, menyimak dengan tenang, dan tidak memotong penjelasan guru. Kebiasaan kecil ini melatih kesabaran yang nantinya menjadi bekal utama dalam menuntut ilmu yang lebih tinggi.",
+        "Adab kepada guru meliputi menghormati pendapatnya, bertanya dengan bahasa yang baik, dan tidak menyebarkan kesalahpahaman tentangnya. Murid yang menjaga adab akan lebih mudah menerima ilmu, karena hati yang lapang lebih cepat menyerap daripada hati yang penuh keberatan.",
+        "Adab kepada teman juga penting. Belajar bersama membutuhkan kejujuran, tidak saling menyembunyikan catatan, dan mau menjelaskan kepada yang belum paham. Dengan begitu, kelas berubah menjadi tempat saling menguatkan, bukan ajang saling mendahului.",
+        "Di lembaga kami, pembiasaan adab dilakukan melalui hal sederhana: salam sebelum masuk kelas, menata sandal, merapikan meja sebelum pulang, dan membaca doa bersama. Guru mendampingi langsung agar pembiasaan ini tidak hanya menjadi aturan tertulis, tetapi tumbuh menjadi karakter.",
+        "Semoga Allah menjadikan anak-anak kita sebagai penuntut ilmu yang beradab, sebab ilmu yang bermanfaat adalah ilmu yang jatuh pada hati yang telah dihiasi adab."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-2",
+      "slug": "murajaah-harian-hafalan-quran",
+      "judul": "Mengapa Hafalan Al-Qur'an Perlu Muraja'ah Harian",
+      "kategori": "Al-Qur'an",
+      "penulis": "Ust. Deden Supriatna, S.Pd.I",
+      "tanggal": "2026-09-28",
+      "menit_baca": 6,
+      "dibaca": 2980,
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Hafalan itu seperti tanaman: ia tidak mati sekali dengan keras, tetapi layu sedikit demi sedikit ketika ditinggalkan.",
+      "isi": [
+        "Setiap penghafal Al-Qur'an pasti pernah merasakan hafalan yang tiba-tiba terasa berat. Yang sering tidak disadari, hafalan tidak hilang dalam satu malam, melainkan melemah karena ditinggalkan sedikit demi sedikit dalam hitungan hari.",
+        "Karena itu para musyrif menekankan muraja'ah harian, meskipun hanya satu halaman. Tujuannya bukan menambah hafalan, tetapi menjaga ikatan dengan ayat yang sudah dihafal agar tetap melekat dalam ingatan dan lisan.",
+        "Cara yang paling terbukti adalah menggabungkan setoran baru dengan muraja'ah lama dalam satu majelis: setor satu halaman baru, lalu muraja'ah dua halaman lama. Porsi lama yang lebih besar menjaga hafalan tetap utuh saat hafalan baru bertambah.",
+        "Anak yang merasa hafalannya sering hilang biasanya terlalu banyak menambah hafalan baru dan sedikit mengulang. Bila pola ini dibiarkan, yang terjadi bukan bertambah hafal, melainkan kehilangan hafal yang lama secara perlahan.",
+        "Selain waktu, kualitas muraja'ah dipengaruhi suasana hati dan tempat. Membaca di tempat yang tenang, dengan wudhu, dan menghadap kiblat membantu lisan serta hati lebih siap menerima ayat-ayat yang diulang."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-3",
+      "slug": "fikih-zakat-fitrah-keluarga",
+      "judul": "Fikih Ringkas: Zakat Fitrah untuk Seorang Keluarga",
+      "kategori": "Fikih",
+      "penulis": "Ust. Deden Saepudin, M.Pd.",
+      "tanggal": "2026-09-23",
+      "menit_baca": 5,
+      "dibaca": 2410,
+      "gambar_url": "https://images.unsplash.com/photo-1569929919600-59123640bc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Siapa yang wajib menunaikannya, berapa besarannya, dan kapan waktu terbaik menyalurkannya — dijelaskan ringkas dengan dalilnya.",
+      "isi": [
+        "Zakat fitrah wajib bagi setiap muslim yang memiliki kelebihan makanan pokok untuk dirinya dan keluarganya pada malam hari raya. Kewajiban ini meliputi kepala keluarga, istri, anak-anak, dan orang yang menjadi tanggungannya.",
+        "Besarannya satu sha' makanan pokok, yaitu sekitar dua setengah kilogram beras, untuk setiap jiwa. Boleh ditunaikan dalam bentuk beras sesuai kebiasaan setempat, atau dalam bentuk uang senilai makanan pokok tersebut bila dianggap lebih bermanfaat bagi penerima.",
+        "Waktunya dibagi menjadi tiga: sejak awal Ramadhan (waktu yang boleh), sejak beberapa hari sebelum hari raya (waktu yang lebih utama), dan setelah shalat Idul Fitri (waktu yang tidak sah sebagai zakat fitrah, melainkan menjadi sedekah biasa). Karena itu panitia zakat lembaga menutup penerimaan sebelum shalat Id.",
+        "Yang perlu dijaga adalah penyalurannya: didahulukan kepada kaum fakir dan miskin di lingkungan terdekat. Menyalurkan melalui panitia yang amanah membuat distribusi lebih rapi dan tepat sasaran, terutama bagi keluarga yang menjaga wibawa dan tidak menampakkan kebutuhan."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-4",
+      "slug": "mendidik-anak-dengan-keteladanan",
+      "judul": "Mendidik Anak dengan Keteladanan, Bukan Sekadar Perintah",
+      "kategori": "Keluarga",
+      "penulis": "Ustadzah Nur Aisyah, S.Pd.I.",
+      "tanggal": "2026-09-19",
+      "menit_baca": 5,
+      "dibaca": 1980,
+      "gambar_url": "https://images.unsplash.com/photo-1589104760192-ccab0ce0d90f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Anak lebih cepat meniru apa yang kita kerjakan daripada mendengar apa yang kita perintahkan. Rumah adalah madrasah pertama yang tidak pernah libur.",
+      "isi": [
+        "Allah menjadikan anak sebagai amanah sekaligus ujian. Salah satu hikmahnya, kehadiran anak menuntut orang tua memperbaiki diri lebih dulu, karena anak belajar paling cepat dari apa yang ia lihat setiap hari.",
+        "Keteladanan bekerja secara diam-diam tetapi mendalam. Anak yang melihat ayahnya bergegas ke masjid saat azan akan tumbuh dengan kebiasaan itu; anak yang melihat ibunya membaca Al-Qur'an setiap pagi akan menganggapnya hal biasa dan wajar diperbuat.",
+        "Sebaliknya, perintah tanpa contoh menumbuhkan kebingungan. Anak diminta jujur tetapi melihat kebohongan kecil di rumah, diminta menjaga waktu tetapi melihat orang tuanya selalu terlambat. Lama-kelamaan anak menyimpulkan bahwa aturan hanyalah untuk anak-anak.",
+        "Ada tiga langkah praktis yang bisa dilakukan setiap keluarga. Pertama, sepakati satu kebiasaan harian yang dilakukan bersama, misalnya shalat berjamaah atau mengaji setelah maghrib. Kedua, jelaskan alasannya dengan bahasa sederhana, bukan hanya perintah. Ketiga, konsisten dan jangan menuntut kesempurnaan, karena yang dinilai adalah istiqamah.",
+        "Mendidik anak adalah perjalanan panjang yang hasilnya jarang terlihat dalam satu semester. Yang perlu dijaga adalah arah, kesabaran, dan doa, sebab Allah-lah yang menumbuhkan apa yang kita tanam."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-5",
+      "slug": "meneladani-perjuangan-dakwah-priangan",
+      "judul": "Meneladani Perjuangan Dakwah di Tanah Priangan",
+      "kategori": "Sirah",
+      "penulis": "Ust. Hilmi Rahman, Lc.",
+      "tanggal": "2026-09-14",
+      "menit_baca": 8,
+      "dibaca": 1640,
+      "gambar_url": "https://images.unsplash.com/photo-1667456416191-43ba057635c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Perjalanan dakwah ahlus sunnah di Jawa Barat mengajarkan kesabaran, kedisiplinan, dan keberanian membangun lembaga pendidikan dari yang paling sederhana.",
+      "isi": [
+        "Dakwah di Tanah Priangan tumbuh dari majelis-majelis kecil: pengajian di rumah, surau, dan pasar. Para pendahulu berpindah dari satu kampung ke kampung lain dengan bekal kitab yang dihafal di luar kepala dan kesabaran yang tidak habis.",
+        "Salah satu pelajaran terpenting dari generasi awal adalah kedisiplinan. Mereka menepati jadwal pengajian, tepat waktu, dan mencatat setiap pertanyaan jamaah untuk dibahas pada pertemuan berikutnya. Keteladanan ini membuat jamaah percaya bahwa majelis mereka dikelola dengan sungguh-sungguh.",
+        "Mereka juga membangun lembaga pendidikan sebagai jembatan dakwah. Madrasah yang berdiri pertama mungkin hanya berlantai tanah dan berdinding bilik, tetapi menjadi tempat lahirnya kader yang kemudian mengajar di tempat lain. Usaha ini membutuhkan keberanian lebih daripada sekadar berbicara di mimbar.",
+        "Meneladani mereka bukan berarti mengulang keadaannya, tetapi mengambil semangatnya. Zaman berubah, media berganti, namun kebutuhan umat akan ilmu yang bersih dan pengajaran yang penuh kasih sayang tidak berubah.",
+        "Warisan yang paling nyata adalah keberanian menyerahkan sebagian rezeki untuk pendidikan: membangun ruang kelas, menggaji guru, dan menyantuni santri yatim. Inilah bentuk dakwah besar yang sering luput dari catatan."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-6",
+      "slug": "tauhid-fondasi-pendidikan-anak",
+      "judul": "Tauhid sebagai Fondasi Pendidikan Anak",
+      "kategori": "Aqidah",
+      "penulis": "Ust. Hilmi Rahman, Lc.",
+      "tanggal": "2026-09-08",
+      "menit_baca": 6,
+      "dibaca": 1320,
+      "gambar_url": "https://images.pexels.com/photos/38973253/pexels-photo-38973253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "ringkasan": "Sebelum anak menghafal banyak dalil, ia perlu mengenal siapa Rabb-nya melalui bahasa kasih sayang dan kebiasaan harian yang sederhana.",
+      "isi": [
+        "Pendidikan tauhid pada anak tidak dimulai dari definisi yang rumit, melainkan dari pengenalan yang hangat. Sebelum ia memahami istilah, ia perlu merasakan bahwa ada Allah yang menciptakan, menjaga, dan menyayanginya sepanjang hari.",
+        "Percakapan harian menjadi sarana yang paling mudah. Saat hujan turun, orang tua bisa menyebut bahwa Allah yang menurunkan hujan; saat sakit, bahwa Allah yang menyembuhkan. Anak merekam makna itu jauh lebih kuat daripada sekadar menghafal urutan dalil.",
+        "Setelah pengenalan, barulah dibimbing kepada pemahaman tentang ibadah: siapa yang berhak disembah, mengapa kita shalat, dan mengapa kita memohon hanya kepada-Nya. Pembelajaran bertahap ini menjaga rasa cinta anak tetap tumbuh bersama pemahaman yang benar.",
+        "Yang perlu dijaga adalah keseimbangan antara ilmu dan amal. Anak yang menghafal dalil tetapi tidak melihat orang tuanya berdoa dengan sepenuh hati akan kehilangan kaitan antara keduanya. Karena itu guru dan orang tua dituntut berjalan bersama, saling memperbaiki."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-7",
+      "slug": "adab-shalat-berjamaah-di-masjid",
+      "judul": "Adab dan Keutamaan Shalat Berjamaah di Masjid",
+      "kategori": "Fikih",
+      "penulis": "Ust. M. Ihsan Nurdin, Lc.",
+      "tanggal": "2026-09-01",
+      "menit_baca": 4,
+      "dibaca": 1120,
+      "gambar_url": "https://images.unsplash.com/photo-1601191362988-ac6ebec629c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "ringkasan": "Berjalan ke masjid bukan sekadar urusan pahala, tetapi juga latihan disiplin waktu dan menjaga hubungan baik dengan tetangga.",
+      "isi": [
+        "Rasulullah shallallahu alaihi wa sallam menyebutkan keutamaan besar bagi orang yang menjaga shalat berjamaah. Setiap langkah menuju masjid bernilai kebaikan, dan shalat berjamaah memiliki keutamaan derajat di atas shalat yang dikerjakan sendiri.",
+        "Adab pertama yang perlu dijaga adalah waktu. Berangkat lebih awal memberi kesempatan memperoleh takbir pertama, menata niat, dan tidak mengganggu jamaah yang sudah berdiri. Keterlambatan yang terus-menerus membuat seseorang kehilangan bagian besar dari keutamaan ini.",
+        "Adab berikutnya berkaitan dengan lingkungan masjid: merapikan sandal, tidak menaikkan suara, mematikan telepon, dan merapikan barisan dengan menempelkan kaki dan bahu. Barisan yang rapi menjaga kekhusyukan jamaah dan menunjukkan akhlak yang baik kepada tetangga.",
+        "Membiasakan anak ikut ke masjid sejak kecil memerlukan pendampingan, bukan sekadar membawa. Kita perlu mengajarkan adabnya secara bertahap agar ia tumbuh sebagai bagian dari jamaah yang menjaga masjid, bukan sebagai tamu yang mengganggu."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ar-8",
+      "slug": "peran-wali-santri-menjaga-adab",
+      "judul": "Peran Wali Santri dalam Menjaga Adab Anak di Rumah",
+      "kategori": "Tarbiyah",
+      "penulis": "Ust. Deden Saepudin, M.Pd.",
+      "tanggal": "2026-08-25",
+      "menit_baca": 5,
+      "dibaca": 940,
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "ringkasan": "Sekolah dan rumah harus berjalan searah. Tiga kebiasaan sederhana ini membantu adab anak tumbuh konsisten, bukan hanya di madrasah.",
+      "isi": [
+        "Adab yang diajarkan di madrasah akan cepat luntur bila di rumah ia melihat hal yang berlawanan. Karena itu komunikasi antara wali kelas dan wali santri kami jadikan bagian dari pembinaan, bukan sekadar laporan nilai akhir semester.",
+        "Kebiasaan pertama, mintalah anak menyampaikan satu adab yang dipelajarinya hari itu di sekolah. Percakapan ringan ini membuat ia mengulang ilmu yang sudah disampaikan guru sekaligus merasakan bahwa orang tua menaruh perhatian pada pembelajarannya.",
+        "Kebiasaan kedua, berikan tanggung jawab kecil yang rutin: membersihkan alat makan, menata sepatu, atau menyiapkan buku esok hari. Tanggung jawab membuat anak terlatih disiplin dan memahami bahwa kebaikan itu dikerjakan setiap hari, bukan sesaat.",
+        "Kebiasaan ketiga, jaga nada bicara di rumah. Anak belajar menjaga lisan dari cara kita menyapa pasangan, memanggil kakak, dan memberi komentar tentang orang lain. Yang paling berpengaruh pada adab anak biasanya bukan nasihat, melainkan contoh yang berulang."
+      ],
+      "terbit": true
+    }
+  ],
+  "pengumuman": [
+    {
+      "id": "an-1",
+      "judul": "Jadwal Ujian Akhir Semester Ganjil 1447 H",
+      "tanggal": "2026-10-04",
+      "kategori": "Akademik",
+      "ringkasan": "Ujian berlangsung 24 Februari – 3 Maret 2026 untuk seluruh jenjang. Kartu ujian dapat diambil di ruang tata usaha mulai pekan depan.",
+      "isi": [
+        "Ujian Akhir Semester Ganjil 1447 H dilaksanakan serentak untuk jenjang RA, MI, MTs, MA, dan Perguruan Tinggi mulai 24 Februari sampai 3 Maret 2026. Jadwal tiap mata pelajaran berbeda, sehingga peserta diharapkan memeriksa jadwal jenjangnya masing-masing.",
+        "Kartu ujian dapat diambil di ruang tata usaha setiap hari kerja mulai pekan depan dengan menunjukkan bukti pembayaran administrasi. Peserta yang administrasinya belum lunas diarahkan menemui bagian keuangan sebelum kartu ujian dicetak.",
+        "Peserta wajib hadir lima belas menit sebelum ujian dimulai, membawa alat tulis sendiri, dan mengenakan seragam sesuai ketentuan jenjang. Ponsel dan catatan dalam bentuk apa pun tidak diperkenankan masuk ke ruang ujian.",
+        "Bagi peserta yang sakit atau berhalangan, orang tua dapat mengajukan ujian susulan melalui wali kelas paling lambat tiga hari setelah jadwal berakhir."
+      ],
+      "disematkan": true,
+      "dibaca": 1840,
+      "terbit": true
+    },
+    {
+      "id": "an-2",
+      "judul": "Kuota SPMB Gelombang I Tersisa 38 Kursi",
+      "tanggal": "2026-10-01",
+      "kategori": "SPMB",
+      "ringkasan": "Pendaftaran gelombang I ditutup 28 Februari 2026. Pastikan berkas akta kelahiran dan kartu keluarga diunggah lengkap.",
+      "isi": [
+        "Pendaftaran SPMB gelombang I ditutup pada 28 Februari 2026 pukul 15.00 WIB. Hingga pengumuman ini diterbitkan, sisa kuota tercatat 38 kursi dengan sebaran berbeda di setiap jenjang.",
+        "Berkas yang perlu dilengkapi meliputi akta kelahiran, kartu keluarga, pas foto ukuran 3x4 berlatar merah, serta nilai rapor semester terakhir bagi pendaftar jenjang MTs dan MA.",
+        "Berkas yang belum lengkap masih dapat menyusul maksimal satu pekan setelah pendaftaran, dengan syarat orang tua atau wali mengonfirmasi kepada panitia SPMB melalui WhatsApp resmi.",
+        "Pendaftar yang mendaftar setelah kuota gelombang I habis akan otomatis diarahkan ke gelombang II dengan ketentuan biaya yang berlaku pada gelombang tersebut."
+      ],
+      "disematkan": false,
+      "dibaca": 1522,
+      "terbit": true
+    },
+    {
+      "id": "an-3",
+      "judul": "Pembagian Rapor & Pertemuan Wali Santri",
+      "tanggal": "2026-09-27",
+      "kategori": "Umum",
+      "ringkasan": "Pertemuan wali santri dilaksanakan serentak di aula PC PERSIS Cibatu, pukul 08.00 WIB, dilanjutkan sesi tanya jawab.",
+      "isi": [
+        "Pembagian rapor sekaligus pertemuan wali santri dilaksanakan serentak di aula PC PERSIS Cibatu mulai pukul 08.00 WIB. Kegiatan dibuka dengan tausiyah singkat, dilanjutkan penyerahan rapor per kelas, dan diakhiri sesi tanya jawab bersama wali kelas.",
+        "Orang tua atau wali diharapkan hadir tepat waktu dan membawa kartu wali santri. Bagi yang berhalangan hadir, rapor dapat diambil di ruang tata usaha pada hari kerja berikutnya.",
+        "Pertemuan ini menjadi kesempatan membahas perkembangan belajar, hafalan, serta pembinaan akhlak ananda bersama dewan guru, sehingga kehadiran orang tua sangat kami harapkan."
+      ],
+      "disematkan": false,
+      "dibaca": 964,
+      "terbit": true
+    },
+    {
+      "id": "an-4",
+      "judul": "Libur Awal Ramadhan dan Kegiatan Pesantren Kilat",
+      "tanggal": "2026-09-23",
+      "kategori": "Dakwah",
+      "ringkasan": "KBM diliburkan pada dua hari pertama Ramadhan, digantikan jadwal khusus pesantren kilat untuk seluruh jenjang.",
+      "isi": [
+        "Kegiatan belajar mengajar diliburkan pada dua hari pertama Ramadhan. Sebagai gantinya, seluruh jenjang mengikuti pesantren kilat dengan jadwal khusus yang lebih ringkas, dimulai pukul 07.30 sampai 11.30 WIB.",
+        "Materi pesantren kilat meliputi tadarus bersama, kajian fiqih puasa, praktik wudhu dan shalat, serta lomba hafalan antar kelas. Peserta membawa perlengkapan ibadah dan Al-Qur'an masing-masing.",
+        "Setelah pekan pesantren kilat, KBM kembali berjalan dengan jadwal Ramadhan yang berlaku hingga berakhirnya bulan suci."
+      ],
+      "disematkan": false,
+      "dibaca": 1187,
+      "terbit": true
+    },
+    {
+      "id": "an-5",
+      "judul": "Pengambilan Seragam & Buku Pegangan Siswa Baru",
+      "tanggal": "2026-09-19",
+      "kategori": "Umum",
+      "ringkasan": "Seragam dapat diambil di koperasi sekolah setiap hari kerja pukul 08.00 – 14.00 WIB dengan membawa bukti pembayaran.",
+      "isi": [
+        "Pengambilan seragam dan buku pegangan siswa baru dilayani di koperasi sekolah setiap hari kerja pukul 08.00 sampai 14.00 WIB. Petugas koperasi akan memeriksa ukuran seragam bersama siswa agar tidak perlu penukaran.",
+        "Harap membawa bukti pembayaran asli atau tangkapan layar bukti transfer. Pengambilan tidak dapat diwakilkan kepada pihak lain di luar keluarga siswa.",
+        "Bila ukuran seragam tidak sesuai, penukaran dapat dilakukan paling lambat tujuh hari setelah pengambilan, dengan syarat label dan kemasan belum dilepas."
+      ],
+      "disematkan": false,
+      "dibaca": 703,
+      "terbit": true
+    }
+  ],
+  "agenda": [
+    {
+      "id": "ag-1",
+      "judul": "Peringatan Isra Mi'raj 1447 H",
+      "tanggal": "2026-10-08",
+      "waktu": "07.30 – 11.00 WIB",
+      "tempat": "Aula PC PERSIS Cibatu",
+      "tag": "Dakwah",
+      "isi": [
+        "Peringatan Isra Mi'raj 1447 H digelar di aula PC PERSIS Cibatu mulai pukul 07.30 WIB dan terbuka untuk seluruh siswa, wali santri, serta masyarakat umum.",
+        "Acara diisi tausiyah tentang hikmah perjalanan Isra Mi'raj, penampilan hadrah santri, dan doa bersama untuk keberkahan lembaga. Peserta diharapkan membawa alas duduk sendiri.",
+        "Panitia menyediakan konsumsi ringan bagi peserta yang mendaftar lebih dahulu melalui wali kelas atau pengurus jenjang."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ag-2",
+      "judul": "Tes Baca Al-Qur'an Calon Santri Baru",
+      "tanggal": "2026-10-11",
+      "waktu": "08.00 – 12.00 WIB",
+      "tempat": "Gedung B, Lantai 2",
+      "tag": "SPMB",
+      "isi": [
+        "Tes baca Al-Qur'an diikuti seluruh calon santri baru yang pendaftarannya telah diverifikasi. Tes dibagi dalam beberapa sesi mulai pukul 08.00 sampai 12.00 WIB.",
+        "Materi tes mencakup kelancaran membaca, makharijul huruf, dan hafalan surat pendek sesuai jenjang yang dituju. Calon santri cukup membawa kartu peserta tes.",
+        "Hasil tes disampaikan melalui WhatsApp orang tua atau wali paling lambat tiga hari kerja setelah pelaksanaan, dan menjadi bahan penempatan kelas tahsin."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ag-3",
+      "judul": "Rapat Koordinasi Dewan Guru & Wali Kelas",
+      "tanggal": "2026-10-14",
+      "waktu": "13.00 – 15.00 WIB",
+      "tempat": "Ruang Rapat Sekretariat",
+      "tag": "Internal",
+      "isi": [
+        "Rapat koordinasi dewan guru dan wali kelas membahas evaluasi tengah semester, kesiapan ujian akhir, serta pembagian tugas pendampingan santri berprestasi dan yang perlu perhatian khusus.",
+        "Setiap wali kelas menyerahkan laporan singkat perkembangan kelasnya. Agenda berikutnya adalah penyusunan jadwal ujian dan penetapan target capaian hafalan.",
+        "Rapat hanya untuk internal pengajar. Hasil rapat akan disampaikan kepada orang tua melalui surat edaran jenjang masing-masing."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ag-4",
+      "judul": "Manasik Haji Anak & Latihan Qurban",
+      "tanggal": "2026-10-18",
+      "waktu": "06.30 – 10.00 WIB",
+      "tempat": "Lapangan Cibatu",
+      "tag": "Kesiswaan",
+      "isi": [
+        "Manasik haji anak dan latihan qurban dilaksanakan di Lapangan Cibatu mulai pukul 06.30 WIB. Kegiatan ini melatih tata cara ibadah haji sekaligus tata cara penyembelihan qurban sesuai syariat.",
+        "Seluruh peserta mengenakan pakaian ihram atau seragam sekolah, membawa botol minum, dan topi. Perwakilan wali santri diundang hadir untuk mendampingi.",
+        "Panitia menyiapkan area terpisah bagi peserta jenjang RA dan MI, dengan pengawasan guru pendamping di setiap kelompok."
+      ],
+      "terbit": true
+    },
+    {
+      "id": "ag-5",
+      "judul": "Tablig Akbar & Buka Puasa Bersama",
+      "tanggal": "2026-10-22",
+      "waktu": "16.30 – 19.00 WIB",
+      "tempat": "Masjid Al-Furqan",
+      "tag": "Umum",
+      "isi": [
+        "Tablig akbar dan buka puasa bersama digelar di Masjid Al-Furqan mulai pukul 16.30 WIB sampai selesai. Acara terbuka untuk umum dan seluruh keluarga besar PC PERSIS Cibatu.",
+        "Rangkaian acara meliputi kultum menjelang berbuka, shalat Maghrib berjamaah, makan bersama, dan penutup berupa doa serta pengumuman program Ramadhan lembaga.",
+        "Panitia menyediakan takjil bagi peserta yang hadir. Bagi yang ingin berbagi, donasi dapat disalurkan melalui sekretariat untuk mendukung kegiatan pesantren kilat dan santunan anak yatim."
+      ],
+      "terbit": true
+    }
+  ],
+  "kajian": [
+    {
+      "id": "kj-1",
+      "judul": "Kajian Ahad Subuh: Tafsir Surah Al-Fatihah",
+      "ustadz": "Ust. H. Ahmad Fauzan, Lc., M.A.",
+      "hari": "Selasa, 6 Okt 2026",
+      "tanggal": "2026-10-06",
+      "waktu": "05.30 WIB",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "kitab": "Tafsir Ibnu Katsir",
+      "langsung": true,
+      "terbit": true
+    },
+    {
+      "id": "kj-2",
+      "judul": "Kajian Rutin Muslimah: Adab Keluarga Sakinah",
+      "ustadz": "Ustadzah Nur Aisyah, S.Pd.I.",
+      "hari": "Jumat, 9 Okt 2026",
+      "tanggal": "2026-10-09",
+      "waktu": "09.00 WIB",
+      "tempat": "Aula Muslimah",
+      "kitab": "Riyadhus Shalihin",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-3",
+      "judul": "Fiqih Ibadah Praktis untuk Wali Santri",
+      "ustadz": "Ust. Deden Saepudin, M.Pd.",
+      "hari": "Sabtu, 10 Okt 2026",
+      "tanggal": "2026-10-10",
+      "waktu": "16.00 WIB",
+      "tempat": "Gedung B, Lantai 1",
+      "kitab": "Fikih Sunnah",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-4",
+      "judul": "Kajian Kitab Tauhid untuk Remaja Masjid",
+      "ustadz": "Ust. Hilmi Rahman, Lc.",
+      "hari": "Ahad, 11 Okt 2026",
+      "tanggal": "2026-10-11",
+      "waktu": "19.30 WIB",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "kitab": "Kitab Tauhid",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-5",
+      "judul": "Sirah Nabawiyah: Pelajaran dari Perang Badar",
+      "ustadz": "Ust. M. Ihsan Nurdin, Lc.",
+      "hari": "Senin, 12 Okt 2026",
+      "tanggal": "2026-10-12",
+      "waktu": "20.00 WIB",
+      "tempat": "Masjid Baiturrahman",
+      "kitab": "Ar-Rahiq Al-Makhtum",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-6",
+      "judul": "Kajian Tafsir Juz 'Amma untuk Santri MDT",
+      "ustadz": "Ust. Deden Supriatna, S.Pd.I",
+      "hari": "Rabu, 14 Okt 2026",
+      "tanggal": "2026-10-14",
+      "waktu": "15.30 WIB",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "kitab": "Tafsir Jalalain",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-7",
+      "judul": "Kajian Ekonomi Syari'ah untuk Wali Santri",
+      "ustadz": "Ust. Dr. H. Abdul Hakim, Lc., M.A.",
+      "hari": "Jumat, 16 Okt 2026",
+      "tanggal": "2026-10-16",
+      "waktu": "16.00 WIB",
+      "tempat": "Gedung Perguruan Tinggi",
+      "kitab": "Fikih Muamalah",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-8",
+      "judul": "Kajian Hadits Pilihan: Akhlak Sesama",
+      "ustadz": "Ust. M. Ihsan Nurdin, Lc.",
+      "hari": "Ahad, 18 Okt 2026",
+      "tanggal": "2026-10-18",
+      "waktu": "20.00 WIB",
+      "tempat": "Masjid Baiturrahman",
+      "kitab": "Riyadhus Shalihin",
+      "langsung": false,
+      "terbit": true
+    },
+    {
+      "id": "kj-9",
+      "judul": "Kajian Muslimah: Fikih Wanita & Ibadah Harian",
+      "ustadz": "Ustadzah Nur Aisyah, S.Pd.I.",
+      "hari": "Rabu, 21 Okt 2026",
+      "tanggal": "2026-10-21",
+      "waktu": "09.00 WIB",
+      "tempat": "Aula Muslimah",
+      "kitab": "Fikih Wanita",
+      "langsung": false,
+      "terbit": true
+    }
+  ],
+  "kajian_rutin": [
+    {
+      "id": "kr-1",
+      "urutan": 1,
+      "hari": "Ahad",
+      "waktu": "05.30 WIB",
+      "judul": "Tafsir Al-Qur'an (Ahad Subuh)",
+      "ustadz": "Ust. H. Ahmad Fauzan, Lc., M.A.",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "peserta": "Umum",
+      "aktif": true
+    },
+    {
+      "id": "kr-2",
+      "urutan": 2,
+      "hari": "Senin",
+      "waktu": "15.30 WIB",
+      "judul": "Diniyyah MDT: Fikih Ibadah",
+      "ustadz": "Ust. Deden Supriatna, S.Pd.I",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "peserta": "Santri MDT",
+      "aktif": true
+    },
+    {
+      "id": "kr-3",
+      "urutan": 3,
+      "hari": "Rabu",
+      "waktu": "09.00 WIB",
+      "judul": "Adab Keluarga Sakinah",
+      "ustadz": "Ustadzah Nur Aisyah, S.Pd.I.",
+      "tempat": "Aula Muslimah",
+      "peserta": "Muslimah",
+      "aktif": true
+    },
+    {
+      "id": "kr-4",
+      "urutan": 4,
+      "hari": "Kamis",
+      "waktu": "16.00 WIB",
+      "judul": "Fiqih Ibadah Praktis",
+      "ustadz": "Ust. Deden Saepudin, M.Pd.",
+      "tempat": "Gedung B, Lantai 1",
+      "peserta": "Wali santri",
+      "aktif": true
+    },
+    {
+      "id": "kr-5",
+      "urutan": 5,
+      "hari": "Jumat",
+      "waktu": "19.30 WIB",
+      "judul": "Kitab Tauhid",
+      "ustadz": "Ust. Hilmi Rahman, Lc.",
+      "tempat": "Masjid Al-Furqan Cibatu",
+      "peserta": "Remaja masjid",
+      "aktif": true
+    },
+    {
+      "id": "kr-6",
+      "urutan": 6,
+      "hari": "Sabtu",
+      "waktu": "20.00 WIB",
+      "judul": "Sirah Nabawiyah",
+      "ustadz": "Ust. M. Ihsan Nurdin, Lc.",
+      "tempat": "Masjid Baiturrahman",
+      "peserta": "Umum",
+      "aktif": true
+    }
+  ],
+  "galeri_album": [
+    {
+      "id": "al-kegiatan-belajar",
+      "slug": "kegiatan-belajar",
+      "nama": "Kegiatan Belajar",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "al-kajian-dakwah",
+      "slug": "kajian-dakwah",
+      "nama": "Kajian & Dakwah",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "al-tahfizhul-qur-an",
+      "slug": "tahfizhul-qur-an",
+      "nama": "Tahfizhul Qur'an",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "al-ekstrakurikuler",
+      "slug": "ekstrakurikuler",
+      "nama": "Ekstrakurikuler",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "al-wisuda-kelulusan",
+      "slug": "wisuda-kelulusan",
+      "nama": "Wisuda & Kelulusan",
+      "urutan": 5,
+      "aktif": true
+    },
+    {
+      "id": "al-fasilitas-kampus",
+      "slug": "fasilitas-kampus",
+      "nama": "Fasilitas & Kampus",
+      "urutan": 6,
+      "aktif": true
+    }
+  ],
+  "galeri_foto": [
+    {
+      "id": "gf-1",
+      "album_id": "al-kegiatan-belajar",
+      "judul": "Suasana belajar di kelas MI PERSIS 01 Cibatu",
+      "gambar_url": "https://images.unsplash.com/photo-1757141975350-e5702ecff5bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-10-03",
+      "urutan": 1,
+      "aktif": true
+    },
+    {
+      "id": "gf-7",
+      "album_id": "al-tahfizhul-qur-an",
+      "judul": "Setoran hafalan santri kepada ustadz",
+      "gambar_url": "https://images.pexels.com/photos/39838896/pexels-photo-39838896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-10-02",
+      "urutan": 2,
+      "aktif": true
+    },
+    {
+      "id": "gf-4",
+      "album_id": "al-kajian-dakwah",
+      "judul": "Kajian rutin Ahad subuh di Masjid Al-Furqan",
+      "gambar_url": "https://images.unsplash.com/photo-1540567736792-f78f6242e4e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-10-01",
+      "urutan": 3,
+      "aktif": true
+    },
+    {
+      "id": "gf-2",
+      "album_id": "al-kegiatan-belajar",
+      "judul": "Belajar membaca Al-Qur'an dengan metode tartil",
+      "gambar_url": "https://images.pexels.com/photos/37350650/pexels-photo-37350650.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-09-29",
+      "urutan": 4,
+      "aktif": true
+    },
+    {
+      "id": "gf-10",
+      "album_id": "al-ekstrakurikuler",
+      "judul": "Latihan basket di lapangan madrasah",
+      "gambar_url": "https://images.pexels.com/photos/10643703/pexels-photo-10643703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-09-27",
+      "urutan": 5,
+      "aktif": true
+    },
+    {
+      "id": "gf-3",
+      "album_id": "al-kegiatan-belajar",
+      "judul": "Diskusi kelompok siswa di ruang kelas",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229214-d96be4552b9a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-09-24",
+      "urutan": 6,
+      "aktif": true
+    },
+    {
+      "id": "gf-5",
+      "album_id": "al-kajian-dakwah",
+      "judul": "Jamaah menanti kajian ba'da Maghrib",
+      "gambar_url": "https://images.unsplash.com/photo-1671811542591-42765d45650c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-09-22",
+      "urutan": 7,
+      "aktif": true
+    },
+    {
+      "id": "gf-8",
+      "album_id": "al-tahfizhul-qur-an",
+      "judul": "Muraja'ah hafalan sebelum kegiatan belajar",
+      "gambar_url": "https://images.pexels.com/photos/39838892/pexels-photo-39838892.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-09-18",
+      "urutan": 8,
+      "aktif": true
+    },
+    {
+      "id": "gf-11",
+      "album_id": "al-ekstrakurikuler",
+      "judul": "Kegiatan kepanduan di lapangan hijau",
+      "gambar_url": "https://images.unsplash.com/photo-1606092195808-3107b7ed4c98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-09-15",
+      "urutan": 9,
+      "aktif": true
+    },
+    {
+      "id": "gf-6",
+      "album_id": "al-kajian-dakwah",
+      "judul": "Tablig akbar bersama pengurus cabang",
+      "gambar_url": "https://images.pexels.com/photos/35236671/pexels-photo-35236671.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-09-10",
+      "urutan": 10,
+      "aktif": true
+    },
+    {
+      "id": "gf-16",
+      "album_id": "al-fasilitas-kampus",
+      "judul": "Kubah hijau Masjid Al-Furqan Cibatu",
+      "gambar_url": "https://images.unsplash.com/photo-1692977579997-948328cdb7d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-09-06",
+      "urutan": 11,
+      "aktif": true
+    },
+    {
+      "id": "gf-9",
+      "album_id": "al-tahfizhul-qur-an",
+      "judul": "Halaqah tahfizh juz 30 tingkat MI",
+      "gambar_url": "https://images.pexels.com/photos/37350652/pexels-photo-37350652.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-09-03",
+      "urutan": 12,
+      "aktif": true
+    },
+    {
+      "id": "gf-13",
+      "album_id": "al-wisuda-kelulusan",
+      "judul": "Wisuda tahfizh angkatan terakhir",
+      "gambar_url": "https://images.unsplash.com/photo-1599943821034-8cb5c7526922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-08-28",
+      "urutan": 13,
+      "aktif": true
+    },
+    {
+      "id": "gf-12",
+      "album_id": "al-ekstrakurikuler",
+      "judul": "Pentas seni dan permainan tradisional santri",
+      "gambar_url": "https://images.unsplash.com/photo-1774437792146-6453787e715c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "tanggal": "2026-08-22",
+      "urutan": 14,
+      "aktif": true
+    },
+    {
+      "id": "gf-14",
+      "album_id": "al-wisuda-kelulusan",
+      "judul": "Prosesi kelulusan peserta didik MA",
+      "gambar_url": "https://images.pexels.com/photos/30562665/pexels-photo-30562665.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-08-14",
+      "urutan": 15,
+      "aktif": true
+    },
+    {
+      "id": "gf-17",
+      "album_id": "al-fasilitas-kampus",
+      "judul": "Gedung madrasah dan komplek pendidikan PERSIS",
+      "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-08-08",
+      "urutan": 16,
+      "aktif": true
+    },
+    {
+      "id": "gf-15",
+      "album_id": "al-wisuda-kelulusan",
+      "judul": "Foto bersama wisudawan dan dewan guru",
+      "gambar_url": "https://images.pexels.com/photos/31958032/pexels-photo-31958032.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-07-30",
+      "urutan": 17,
+      "aktif": true
+    },
+    {
+      "id": "gf-18",
+      "album_id": "al-fasilitas-kampus",
+      "judul": "Halaman dan lapangan olahraga madrasah",
+      "gambar_url": "https://images.pexels.com/photos/10643697/pexels-photo-10643697.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "tanggal": "2026-07-16",
+      "urutan": 18,
+      "aktif": true
+    }
+  ],
+  "spmb_info": {
+    "id": "utama",
+    "judul": "SPMB",
+    "pengantar": "Sistem Penerimaan Murid & Mahasiswa Baru (SPMB) PC PERSIS Cibatu dibuka untuk lima jenjang formal, dari Raudhatul Athfal sampai perguruan tinggi. Pendaftaran dilakukan secara daring melalui formulir di bawah ini atau langsung ke sekretariat pada jam layanan.",
+    "catatan": "Data pendaftaran diteruskan ke panitia SPMB untuk diverifikasi. Setelah terkirim, isian dapat Anda teruskan ke WhatsApp admin dari tombol yang muncul.",
+    "wa_admin": "088224597479",
+    "form_aktif": true
+  },
+  "spmb_gelombang": [
+    {
+      "id": "gl-1",
+      "urutan": 1,
+      "nama": "Gelombang I",
+      "periode": "29 Sep – 29 Okt",
+      "kuota": "120 kursi",
+      "sisa": "38 kursi tersisa",
+      "status": "Dibuka",
+      "aktif": true
+    },
+    {
+      "id": "gl-2",
+      "urutan": 2,
+      "nama": "Gelombang II",
+      "periode": "5 Nov – 5 Des",
+      "kuota": "80 kursi",
+      "sisa": "Belum dibuka",
+      "status": "Segera",
+      "aktif": true
+    }
+  ],
+  "spmb_biaya": [
+    {
+      "id": "bi-1",
+      "urutan": 1,
+      "label": "Formulir pendaftaran",
+      "nilai": "Rp 100.000",
+      "aktif": true
+    },
+    {
+      "id": "bi-2",
+      "urutan": 2,
+      "label": "Tes seleksi & wawancara",
+      "nilai": "Gratis",
+      "aktif": true
+    },
+    {
+      "id": "bi-3",
+      "urutan": 3,
+      "label": "Administrasi daftar ulang",
+      "nilai": "Sesuai jenjang",
+      "aktif": true
+    }
+  ],
+  "tahun_ajaran": [
+    {
+      "id": "ta-1447-ganjil",
+      "nama": "1447 H",
+      "semester": "Ganjil",
+      "aktif": true
+    }
+  ],
+  "santri": [
+    {
+      "id": "sn-1",
+      "nis": "2024.0187",
+      "nama": "Muhammad Rizky Ramadhan",
+      "jenjang_id": "jg-4",
+      "unit_id": "sk-9",
+      "kelas": "Kelas VIII – B",
+      "program": "Program Tahfizh Al-Qur'an",
+      "jenis_kelamin": "L",
+      "status": "aktif"
+    }
+  ],
+  "mata_pelajaran": [
+    {
+      "id": "mp-1",
+      "nama": "Al-Qur'an & Tahfizh",
+      "kode": "MP-01",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-2",
+      "nama": "Fikih",
+      "kode": "MP-02",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-3",
+      "nama": "Bahasa Arab",
+      "kode": "MP-03",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-4",
+      "nama": "Matematika",
+      "kode": "MP-04",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-5",
+      "nama": "Bahasa Indonesia",
+      "kode": "MP-05",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-6",
+      "nama": "Bahasa Inggris",
+      "kode": "MP-06",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-7",
+      "nama": "IPA Terpadu",
+      "kode": "MP-07",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    },
+    {
+      "id": "mp-8",
+      "nama": "PPKn",
+      "kode": "MP-08",
+      "jenjang_id": "jg-4",
+      "aktif": true
+    }
+  ],
+  "nilai": [
+    {
+      "id": "nl-1",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-1",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 92,
+      "predikat": "A"
+    },
+    {
+      "id": "nl-2",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-2",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 88,
+      "predikat": "B+"
+    },
+    {
+      "id": "nl-3",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-3",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 85,
+      "predikat": "B+"
+    },
+    {
+      "id": "nl-4",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-4",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 79,
+      "predikat": "B"
+    },
+    {
+      "id": "nl-5",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-5",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 86,
+      "predikat": "B+"
+    },
+    {
+      "id": "nl-6",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-6",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 82,
+      "predikat": "B+"
+    },
+    {
+      "id": "nl-7",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-7",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 80,
+      "predikat": "B"
+    },
+    {
+      "id": "nl-8",
+      "santri_id": "sn-1",
+      "mapel_id": "mp-8",
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "semester": "Semester Ganjil 1447 H",
+      "nilai": 84,
+      "predikat": "B+"
+    }
+  ],
+  "setoran_tahfidz": [
+    {
+      "id": "st-1",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-28",
+      "juz": 1,
+      "materi": "Juz 1 · Al-Baqarah 1 – 20",
+      "jenis": "Setoran Baru",
+      "penilai": "Ust. Hilman Nurhakim",
+      "nilai": "Mumtaz"
+    },
+    {
+      "id": "st-2",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-25",
+      "juz": 30,
+      "materi": "Juz 30 · An-Naba 1 – 40",
+      "jenis": "Murojaah",
+      "penilai": "Ust. Hilman Nurhakim",
+      "nilai": "Jayyid Jiddan"
+    },
+    {
+      "id": "st-3",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-21",
+      "juz": 1,
+      "materi": "Juz 1 · Al-Fatihah & awal Al-Baqarah",
+      "jenis": "Setoran Baru",
+      "penilai": "Ust. Fauzan Ramdhani",
+      "nilai": "Jayyid Jiddan"
+    },
+    {
+      "id": "st-4",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-18",
+      "juz": 30,
+      "materi": "Juz 30 · An-Nazi'at 1 – 46",
+      "jenis": "Murojaah",
+      "penilai": "Ust. Hilman Nurhakim",
+      "nilai": "Jayyid"
+    },
+    {
+      "id": "st-5",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-14",
+      "juz": 30,
+      "materi": "Juz 30 · 'Abasa 1 – 42",
+      "jenis": "Murojaah",
+      "penilai": "Ust. Fauzan Ramdhani",
+      "nilai": "Jayyid Jiddan"
+    },
+    {
+      "id": "st-6",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-11",
+      "juz": 1,
+      "materi": "Juz 1 · Al-Baqarah 21 – 39",
+      "jenis": "Setoran Baru",
+      "penilai": "Ust. Hilman Nurhakim",
+      "nilai": "Jayyid"
+    },
+    {
+      "id": "st-7",
+      "santri_id": "sn-1",
+      "tanggal": "2026-09-07",
+      "juz": 30,
+      "materi": "Juz 30 · At-Takwir 1 – 29",
+      "jenis": "Murojaah",
+      "penilai": "Ust. Fauzan Ramdhani",
+      "nilai": "Perlu Diulang"
+    }
+  ],
+  "alumni": [
+    {
+      "id": "al-1",
+      "nis": "2018.0041",
+      "nama": "Aulia Rahman",
+      "jenjang_id": "jg-4",
+      "unit_id": "sk-9",
+      "tahun_lulus": 2021,
+      "pekerjaan": "Santri lanjutan",
+      "instansi": "Pesantren Darul Falah",
+      "kota": "Garut",
+      "aktif": true
+    },
+    {
+      "id": "al-2",
+      "nis": "2019.0113",
+      "nama": "Nadia Salsabila",
+      "jenjang_id": "jg-5",
+      "unit_id": "sk-12",
+      "tahun_lulus": 2022,
+      "pekerjaan": "Mahasiswi",
+      "instansi": "Universitas Islam Bandung",
+      "kota": "Bandung",
+      "aktif": true
+    },
+    {
+      "id": "al-3",
+      "nis": "PT-2019-007",
+      "nama": "Fikri Maulana",
+      "jenjang_id": "jg-6",
+      "unit_id": "sk-14",
+      "tahun_lulus": 2023,
+      "pekerjaan": "Guru",
+      "instansi": "MI PERSIS 02 Cibatu",
+      "kota": "Garut",
+      "aktif": true
+    },
+    {
+      "id": "al-4",
+      "nis": "2017.0058",
+      "nama": "Siti Zulfa Nurhaliza",
+      "jenjang_id": "jg-5",
+      "unit_id": "sk-13",
+      "tahun_lulus": 2020,
+      "pekerjaan": "Mahasiswi",
+      "instansi": "UIN Sunan Gunung Djati",
+      "kota": "Bandung",
+      "aktif": true
+    },
+    {
+      "id": "al-5",
+      "nis": "2016.0022",
+      "nama": "Ahmad Dzaki Mubarok",
+      "jenjang_id": "jg-4",
+      "unit_id": "sk-10",
+      "tahun_lulus": 2019,
+      "pekerjaan": "Wirausaha",
+      "instansi": "Toko Bangunan Berkah",
+      "kota": "Garut",
+      "aktif": true
+    },
+    {
+      "id": "al-6",
+      "nis": "2012.0301",
+      "nama": "Riani Kartika",
+      "jenjang_id": "jg-2",
+      "unit_id": "sk-5",
+      "tahun_lulus": 2018,
+      "pekerjaan": "Mahasiswi",
+      "instansi": "Universitas Garut",
+      "kota": "Garut",
+      "aktif": true
+    },
+    {
+      "id": "al-7",
+      "nis": "PT-2020-012",
+      "nama": "Hafizh Alfarizi",
+      "jenjang_id": "jg-6",
+      "unit_id": "sk-15",
+      "tahun_lulus": 2024,
+      "pekerjaan": "Pengajar tahfizh",
+      "instansi": "Pesantren Al-Furqan",
+      "kota": "Garut",
+      "aktif": true
+    },
+    {
+      "id": "al-8",
+      "nis": "2022.0148",
+      "nama": "Mutiara Fadhilah",
+      "jenjang_id": "jg-5",
+      "unit_id": "sk-12",
+      "tahun_lulus": 2025,
+      "pekerjaan": "Mahasiswi",
+      "instansi": "IPB University",
+      "kota": "Bogor",
+      "aktif": true
+    }
+  ],
+  "metode_pembayaran": [
+    {
+      "id": "mb-1",
+      "urutan": 1,
+      "nama": "Transfer Bank",
+      "keterangan": "Rekening resmi lembaga",
+      "bank": "Bank BRI",
+      "nomor": "0123-4567-8901-234",
+      "atas_nama": "PC PERSIS Cibatu",
+      "langkah": [
+        "Transfer ke rekening Bank BRI 0123-4567-8901-234 atas nama PC PERSIS Cibatu.",
+        "Cantumkan nama santri dan NIS pada berita transfer, contoh: SPP - Muhammad Rizky - 2024.0187.",
+        "Simpan bukti transfer, lalu tekan tombol Sudah Bayar pada halaman ini agar tagihan masuk ke pemeriksaan bendahara."
+      ],
+      "aktif": true
+    },
+    {
+      "id": "mb-2",
+      "urutan": 2,
+      "nama": "QRIS",
+      "keterangan": "Pindai kode di sekretariat",
+      "bank": null,
+      "nomor": null,
+      "atas_nama": null,
+      "langkah": [
+        "Kode QRIS resmi lembaga tersedia di sekretariat dan ruang bendahara. Silakan pindai menggunakan aplikasi pembayaran apa pun.",
+        "Pastikan nama penerima yang muncul adalah PC PERSIS Cibatu sebelum menyelesaikan pembayaran.",
+        "Setelah pembayaran berhasil, tekan tombol Sudah Bayar dan tunjukkan bukti pembayaran kepada petugas."
+      ],
+      "aktif": true
+    },
+    {
+      "id": "mb-3",
+      "urutan": 3,
+      "nama": "Tunai di Bendahara",
+      "keterangan": "Senin – Jumat, 07.30 – 15.30 WIB",
+      "bank": null,
+      "nomor": null,
+      "atas_nama": null,
+      "langkah": [
+        "Pembayaran tunai dilayani langsung di ruang bendahara lembaga pada hari kerja, pukul 07.30 – 15.30 WIB.",
+        "Petugas akan mencatat pembayaran dan memberikan tanda terima sementara kepada wali santri.",
+        "Tekan tombol Sudah Bayar setelah pembayaran dilakukan agar tagihan tercatat menunggu verifikasi."
+      ],
+      "aktif": true
+    }
+  ],
+  "tagihan": [
+    {
+      "id": "tg-spmb",
+      "santri_id": "sn-1",
+      "jenis": "SPMB",
+      "label": "Daftar ulang (SPMB)",
+      "keterangan": "Tagihan otomatis dari verifikasi SPMB — Perguruan Tinggi PERSIS Cibatu — Kampus Putra. Nominal bisa diubah petugas tata usaha.",
+      "jumlah": 250000,
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "status": "belum"
+    },
+    {
+      "id": "mn-spp",
+      "santri_id": "sn-1",
+      "jenis": "Bulanan",
+      "label": "SPP Bulan Ini",
+      "jumlah": 450000,
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "status": "menunggu"
+    },
+    {
+      "id": "mn-seragam",
+      "santri_id": "sn-1",
+      "jenis": "Bulanan",
+      "label": "Seragam & Perlengkapan",
+      "jumlah": 385000,
+      "tahun_ajaran_id": "ta-1447-ganjil",
+      "status": "menunggu"
+    }
+  ],
+  "pembayaran": [
+    {
+      "id": "pb-1",
+      "santri_id": "sn-1",
+      "tagihan_id": "mn-spp",
+      "label": "SPP Bulan Ini",
+      "jumlah": 450000,
+      "metode": "Transfer Bank",
+      "status": "menunggu"
+    },
+    {
+      "id": "pb-2",
+      "santri_id": "sn-1",
+      "tagihan_id": "mn-seragam",
+      "label": "Seragam & Perlengkapan",
+      "jumlah": 385000,
+      "metode": "Transfer Bank",
+      "status": "menunggu"
+    },
+    {
+      "id": "pb-r1",
+      "santri_id": "sn-1",
+      "label": "SPP Bulan Lalu",
+      "jumlah": 450000,
+      "metode": "Transfer Bank",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-08-11"
+    },
+    {
+      "id": "pb-r2",
+      "santri_id": "sn-1",
+      "label": "Uang Kegiatan Semester",
+      "jumlah": 275000,
+      "metode": "Tunai di Bendahara",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-08-04"
+    },
+    {
+      "id": "pb-r3",
+      "santri_id": "sn-1",
+      "label": "Buku Paket & LKS",
+      "jumlah": 320000,
+      "metode": "Tunai di Bendahara",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-07-13"
+    },
+    {
+      "id": "pb-r4",
+      "santri_id": "sn-1",
+      "label": "SPP Bulan Juni",
+      "jumlah": 450000,
+      "metode": "Transfer Bank",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-06-09"
+    },
+    {
+      "id": "pb-r5",
+      "santri_id": "sn-1",
+      "label": "Infaq Pembangunan",
+      "jumlah": 200000,
+      "metode": "Transfer Bank",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-05-18"
+    },
+    {
+      "id": "pb-r6",
+      "santri_id": "sn-1",
+      "label": "SPP Bulan April",
+      "jumlah": 450000,
+      "metode": "Tunai di Bendahara",
+      "status": "terverifikasi",
+      "dibayar_pada": "2026-04-10"
+    }
+  ],
+  "donasi_program": [
+    {
+      "id": "dn-1",
+      "slug": "pembangunan-ruang-kelas-baru-mts",
+      "judul": "Pembangunan Ruang Kelas Baru MTs Putra",
+      "kategori": "Pembangunan",
+      "gambar_url": "https://images.pexels.com/photos/35548841/pexels-photo-35548841.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "target": 350000000,
+      "terkumpul": 224500000,
+      "jumlah_donatur": 487,
+      "batas": "2026-10-29",
+      "ringkasan": "Empat ruang kelas baru untuk menampung 128 santri MTs putra yang saat ini belajar bergiliran di ruang serbaguna.",
+      "pengelola": "Bidang Pendidikan & Sarana PC PERSIS Cibatu",
+      "isi": [
+        "Jumlah santri MTs putra terus bertambah setiap tahun, sementara ruang kelas yang tersedia belum bertambah sejak empat tahun terakhir. Akibatnya sebagian rombongan belajar harus memakai ruang serbaguna dan belajar bergiliran pada jam siang.",
+        "Pembangunan empat ruang kelas baru ini direncanakan di lahan sebelah timur gedung utama, satu bangunan dengan koridor penghubung agar santri tidak kehujanan saat berpindah kelas. Setiap ruang berukuran 7 x 8 meter dengan ventilasi silang dan pencahayaan alami.",
+        "Dana yang terkumpul digunakan secara bertahap: pondasi dan struktur terlebih dahulu, lalu dinding, kusen, dan atap, kemudian lantai, listrik, dan pengecatan. Laporan penggunaan dana diumumkan setiap pekan melalui pengumuman resmi lembaga.",
+        "Seluruh donasi masuk ke rekening resmi lembaga dan dicatat oleh bendahara. Wali santri, alumni, dan masyarakat umum dapat menyumbang berapa pun jumlahnya, serta dapat menyalurkan bahan bangunan bila lebih mudah."
+      ],
+      "rincian": [
+        {
+          "item": "Pondasi, struktur, dan cor dak",
+          "jumlah": 148000000
+        },
+        {
+          "item": "Dinding, kusen, dan atap",
+          "jumlah": 121000000
+        },
+        {
+          "item": "Lantai, listrik, dan pengecatan",
+          "jumlah": 64000000
+        },
+        {
+          "item": "Meja, kursi, dan papan tulis",
+          "jumlah": 17000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-2",
+      "slug": "beasiswa-santri-yatim-dhuafa",
+      "judul": "Beasiswa Santri Yatim & Dhuafa",
+      "kategori": "Pendidikan",
+      "gambar_url": "https://images.unsplash.com/photo-1589104760192-ccab0ce0d90f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "target": 120000000,
+      "terkumpul": 92250000,
+      "jumlah_donatur": 313,
+      "batas": "2026-11-05",
+      "ringkasan": "Membiayai pendidikan setahun penuh bagi 60 santri yatim dan dhuafa, mulai dari SPP, seragam, sampai buku pelajaran.",
+      "pengelola": "Bidang Sosial & Kesejahteraan PC PERSIS Cibatu",
+      "isi": [
+        "Lembaga mendata 60 santri yang orang tuanya telah meninggal atau berpenghasilan di bawah kebutuhan dasar. Mereka belajar dengan tekun, namun sebagian sempat berhenti karena tidak sanggup membayar iuran pendidikan.",
+        "Beasiswa ini menutup seluruh kebutuhan belajar selama satu tahun ajaran: iuran pendidikan, seragam, buku pelajaran, perlengkapan tulis, serta biaya kegiatan yang bersifat wajib. Keluarga penerima tidak lagi menerima tagihan bulanan selama periode beasiswa.",
+        "Penyaluran dilakukan langsung oleh bendahara ke rekening tagihan tiap santri, sehingga tidak ada uang tunai yang berpindah tangan. Nama penerima hanya diketahui oleh pengurus, wali kelas, dan wali santri yang bersangkutan.",
+        "Laporan jumlah penerima dan dana tersalur dari program ini dibacakan pada pertemuan wali santri setiap semester sebagai bentuk pertanggungjawaban."
+      ],
+      "rincian": [
+        {
+          "item": "Iuran pendidikan 60 santri (1 tahun)",
+          "jumlah": 72000000
+        },
+        {
+          "item": "Seragam dan perlengkapan belajar",
+          "jumlah": 24000000
+        },
+        {
+          "item": "Buku pelajaran dan kegiatan wajib",
+          "jumlah": 18000000
+        },
+        {
+          "item": "Cadangan darurat keluarga santri",
+          "jumlah": 6000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-3",
+      "slug": "wakaf-al-quran-buku-pelajaran",
+      "judul": "Wakaf Al-Qur'an & Buku Pelajaran",
+      "kategori": "Pendidikan",
+      "gambar_url": "https://images.unsplash.com/photo-1629273229664-11fabc0becc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "target": 45000000,
+      "terkumpul": 41400000,
+      "jumlah_donatur": 206,
+      "batas": "2026-10-17",
+      "ringkasan": "Pengadaan 600 mushaf Al-Qur'an, 200 terjemah, dan buku pelajaran untuk perpustakaan dan halaqah tahfizh.",
+      "pengelola": "Bidang Pendidikan & Sarana PC PERSIS Cibatu",
+      "isi": [
+        "Setiap halaqah tahfizh memerlukan mushaf dengan standar cetak yang sama supaya ayat dan halaman tidak berbeda antar santri. Saat ini sebagian mushaf sudah rusak dan jumlahnya belum cukup untuk 24 halaqah yang berjalan.",
+        "Program ini mengadakan 600 mushaf Al-Qur'an ukuran standar, 200 Al-Qur'an terjemah untuk kelas bawah, serta buku pelajaran pendamping fikih, hadis, dan bahasa Arab untuk perpustakaan lembaga.",
+        "Wakaf Al-Qur'an sangat tepat untuk orang tua, alumni, dan donatur yang ingin menyisihkan sebagian rezeki sebagai amal jariyah. Setiap mushaf diberi label nomor wakaf dan dicatat penggunaannya oleh musyrif tahfizh."
+      ],
+      "rincian": [
+        {
+          "item": "600 mushaf Al-Qur'an",
+          "jumlah": 24000000
+        },
+        {
+          "item": "200 Al-Qur'an terjemah",
+          "jumlah": 11000000
+        },
+        {
+          "item": "Buku pelajaran & rak perpustakaan",
+          "jumlah": 10000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-4",
+      "slug": "renovasi-tempat-wudhu-toilet-santri",
+      "judul": "Renovasi Tempat Wudhu & Toilet Santri",
+      "kategori": "Sarana Ibadah",
+      "gambar_url": "https://images.pexels.com/photos/37945700/pexels-photo-37945700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "target": 60000000,
+      "terkumpul": 24000000,
+      "jumlah_donatur": 120,
+      "batas": "2026-10-23",
+      "ringkasan": "Perbaikan 18 kran wudhu, saluran air, dan toilet santri yang sudah tidak layak pakai sejak musim hujan lalu.",
+      "pengelola": "Bidang Sarana & Umum PC PERSIS Cibatu",
+      "isi": [
+        "Tempat wudhu dan toilet santri dipakai bergantian oleh ratusan santri setiap hari. Saluran airnya sering tersumbat dan beberapa kran sudah rusak, sehingga air tergenang dan lantai menjadi licin.",
+        "Renovasi mencakup penggantian kran dan keramik lantai, pembuatan saluran pembuangan baru, penambahan sekat kayu, serta pemasangan lampu dan kipas angin agar ruang tidak lembap.",
+        "Pekerjaan direncanakan berlangsung pada masa libur semester supaya kegiatan belajar tidak terganggu. Selama pengerjaan, santri memakai tempat wudhu masjid utama."
+      ],
+      "rincian": [
+        {
+          "item": "Kran, keramik, dan sekat ruang",
+          "jumlah": 27000000
+        },
+        {
+          "item": "Saluran air dan septictank",
+          "jumlah": 22000000
+        },
+        {
+          "item": "Lampu, kipas, dan pengecatan",
+          "jumlah": 11000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-5",
+      "slug": "santunan-bulanan-anak-yatim",
+      "judul": "Santunan Bulanan Anak Yatim",
+      "kategori": "Sosial",
+      "gambar_url": "https://images.unsplash.com/photo-1569929919600-59123640bc02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "target": 30000000,
+      "terkumpul": 28100000,
+      "jumlah_donatur": 265,
+      "batas": "2026-10-14",
+      "ringkasan": "Santunan bulanan untuk 75 anak yatim di lingkungan Cibatu, disalurkan bersamaan dengan pengajian bulanan.",
+      "pengelola": "Bidang Sosial & Kesejahteraan PC PERSIS Cibatu",
+      "isi": [
+        "Setiap bulan lembaga menyalurkan santunan kepada 75 anak yatim di lingkungan sekitar Cibatu. Penyaluran dilakukan pada pengajian bulanan agar keluarga penerima sekaligus mendapat pendampingan keagamaan.",
+        "Dana santunan dipakai untuk kebutuhan dasar anak: makanan bergizi, pakaian, alat tulis, serta biaya pengobatan sederhana. Sisanya disisihkan untuk kegiatan bersama seperti buka puasa dan rihlah anak yatim.",
+        "Wali santri dan masyarakat dapat menyumbang rutin setiap bulan berapa pun jumlahnya. Donatur yang menyumbang rutin akan dicatat pada laporan bulanan bidang sosial."
+      ],
+      "rincian": [
+        {
+          "item": "Santunan tunai 75 anak",
+          "jumlah": 18750000
+        },
+        {
+          "item": "Bahan makanan dan pakaian",
+          "jumlah": 7500000
+        },
+        {
+          "item": "Pengobatan dan kegiatan bersama",
+          "jumlah": 3750000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-6",
+      "slug": "ambulans-layanan-kesehatan-warga",
+      "judul": "Ambulans & Layanan Kesehatan Warga",
+      "kategori": "Sosial",
+      "gambar_url": "https://images.unsplash.com/photo-1601191362988-ac6ebec629c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "target": 180000000,
+      "terkumpul": 41500000,
+      "jumlah_donatur": 97,
+      "batas": "2026-11-19",
+      "ringkasan": "Pengadaan satu unit ambulans desa untuk melayani rujukan warga Cibatu, khususnya pada malam hari dan musim hujan.",
+      "pengelola": "Bidang Sosial & Kesejahteraan PC PERSIS Cibatu",
+      "isi": [
+        "Warga Cibatu sering kesulitan mencari kendaraan saat harus merujuk pasien ke rumah sakit di Garut pada malam hari. Selama ini keluarga pasien harus mencari mobil sewaan atau menunggu bantuan tetangga.",
+        "Lembaga bersama tokoh masyarakat menginisiasi pengadaan satu unit ambulans yang dapat dipinjam warga tanpa biaya, termasuk bantuan tenaga pengemudi dari relawan masjid.",
+        "Selain pengadaan kendaraan, program ini menyiapkan peralatan pertolongan pertama, tabung oksigen, dan pelatihan singkat bagi relawan tentang pertolongan pertama dasar."
+      ],
+      "rincian": [
+        {
+          "item": "Pengadaan kendaraan ambulans",
+          "jumlah": 145000000
+        },
+        {
+          "item": "Peralatan medis dan oksigen",
+          "jumlah": 22000000
+        },
+        {
+          "item": "Pelatihan relawan dan perizinan",
+          "jumlah": 13000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-7",
+      "slug": "pembangunan-masjid-al-furqan-lantai-dua",
+      "judul": "Pembangunan Masjid Al-Furqan Lantai Dua",
+      "kategori": "Pembangunan",
+      "gambar_url": "https://images.unsplash.com/photo-1667456416191-43ba057635c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "target": 500000000,
+      "terkumpul": 168300000,
+      "jumlah_donatur": 403,
+      "batas": "2026-12-04",
+      "ringkasan": "Penambahan lantai dua Masjid Al-Furqan untuk menampung jamaah kajian yang terus bertambah setiap pekan.",
+      "pengelola": "Bidang Dakwah & Masjid PC PERSIS Cibatu",
+      "isi": [
+        "Jamaah kajian pekanan Masjid Al-Furqan sudah melebihi daya tampung masjid. Pada kajian besar, sebagian jamaah mengikuti kajian dari halaman dan koridor sekolah.",
+        "Pembangunan lantai dua direncanakan seluas 420 meter persegi, dengan ruang utama, tempat wudhu tambahan, dan tangga dua sisi agar arus jamaah tidak menumpuk di satu titik.",
+        "Masjid ini juga menjadi pusat kegiatan tahfizh harian santri, sehingga penambahan ruang akan langsung dipakai untuk halaqah pagi dan kajian umum pada malam hari."
+      ],
+      "rincian": [
+        {
+          "item": "Struktur dan cor lantai dua",
+          "jumlah": 265000000
+        },
+        {
+          "item": "Keramik, kusen, dan pengecatan",
+          "jumlah": 138000000
+        },
+        {
+          "item": "Tempat wudhu dan pencahayaan",
+          "jumlah": 62000000
+        },
+        {
+          "item": "Karpet dan perlengkapan masjid",
+          "jumlah": 35000000
+        }
+      ],
+      "aktif": true
+    },
+    {
+      "id": "dn-8",
+      "slug": "pengadaan-komputer-laboratorium",
+      "judul": "Pengadaan Komputer Laboratorium MA",
+      "kategori": "Pendidikan",
+      "gambar_url": "https://images.pexels.com/photos/19520532/pexels-photo-19520532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+      "target": 90000000,
+      "terkumpul": 33750000,
+      "jumlah_donatur": 88,
+      "batas": "2026-11-12",
+      "ringkasan": "16 unit komputer untuk praktik informatika dan asesmen berbasis komputer santri Madrasah Aliyah.",
+      "pengelola": "Bidang Pendidikan & Sarana PC PERSIS Cibatu",
+      "isi": [
+        "Madrasah Aliyah menyelenggarakan mata pelajaran informatika dan asesmen berbasis komputer, namun jumlah komputer yang tersedia baru delapan unit dan sebagian berusia lebih dari tujuh tahun.",
+        "Program ini mengadakan 16 unit komputer, meja praktik, jaringan lokal, serta pemasangan instalasi listrik yang memadai agar satu kelas dapat praktik bersama.",
+        "Perangkat akan ditempatkan di laboratorium lantai satu dan dapat dipakai bergantian oleh jenjang MTs untuk pengenalan teknologi dasar."
+      ],
+      "rincian": [
+        {
+          "item": "16 unit komputer dan layar",
+          "jumlah": 64000000
+        },
+        {
+          "item": "Meja, kursi, dan jaringan lokal",
+          "jumlah": 16000000
+        },
+        {
+          "item": "Instalasi listrik dan pendingin ruang",
+          "jumlah": 10000000
+        }
+      ],
+      "aktif": true
+    }
+  ],
+  "donasi_metode": [
+    {
+      "id": "md-1",
+      "urutan": 1,
+      "nama": "Transfer Bank",
+      "keterangan": "Rekening resmi lembaga",
+      "langkah": [
+        "Transfer ke salah satu rekening resmi lembaga yang tercantum di bawah.",
+        "Cantumkan nama program pada berita transfer, contoh: Donasi - Beasiswa Santri Yatim & Dhuafa.",
+        "Kirim bukti transfer ke bendahara melalui WhatsApp agar donasi tercatat atas nama Anda."
+      ],
+      "aktif": true
+    },
+    {
+      "id": "md-2",
+      "urutan": 2,
+      "nama": "QRIS",
+      "keterangan": "Pindai kode di sekretariat",
+      "langkah": [
+        "Kode QRIS resmi lembaga tersedia di sekretariat dan ruang bendahara, dapat dipindai dengan aplikasi pembayaran apa pun.",
+        "Pastikan nama penerima yang muncul adalah PC PERSIS Cibatu sebelum menyelesaikan pembayaran.",
+        "Tunjukkan bukti pembayaran kepada petugas, lalu kirim salinannya ke bendahara melalui WhatsApp."
+      ],
+      "aktif": true
+    },
+    {
+      "id": "md-3",
+      "urutan": 3,
+      "nama": "Tunai di Bendahara",
+      "keterangan": "Serahkan langsung di sekretariat",
+      "langkah": [
+        "Serahkan donasi langsung kepada bendahara pada jam layanan sekretariat, Senin sampai Jumat pukul 07.00–15.00.",
+        "Petugas mencatat jumlah dan identitas donatur pada buku penerimaan donasi.",
+        "Simpan tanda terima yang diberikan sebagai bukti pencatatan."
+      ],
+      "aktif": true
+    }
+  ],
+  "donasi_rekening": [
+    {
+      "id": "rk-1",
+      "urutan": 1,
+      "bank": "Bank BRI",
+      "nomor": "0123-4567-8901-234",
+      "atas_nama": "PC PERSIS Cibatu",
+      "aktif": true
+    },
+    {
+      "id": "rk-2",
+      "urutan": 2,
+      "bank": "Bank Syariah Indonesia",
+      "nomor": "7112-345-678",
+      "atas_nama": "Yayasan Pendidikan PERSIS Cibatu",
+      "aktif": true
+    }
+  ],
+  "donasi_donatur": [
+    {
+      "id": "pembangunan-ruang-kelas-baru-mts-dnr-1",
+      "program_id": "dn-1",
+      "nama": "Hamba Allah",
+      "jumlah": 10000000,
+      "metode": "Transfer Bank",
+      "waktu": "2026-09-30",
+      "tampil": true
+    },
+    {
+      "id": "beasiswa-santri-yatim-dhuafa-dnr-1",
+      "program_id": "dn-2",
+      "nama": "H. Asep Saepudin",
+      "jumlah": 5000000,
+      "metode": "Transfer Bank",
+      "waktu": "2026-09-29",
+      "tampil": true
+    },
+    {
+      "id": "wakaf-al-quran-buku-pelajaran-dnr-1",
+      "program_id": "dn-3",
+      "nama": "Keluarga Bapak Umar",
+      "jumlah": 2500000,
+      "metode": "QRIS",
+      "waktu": "2026-09-28",
+      "tampil": true
+    },
+    {
+      "id": "renovasi-tempat-wudhu-toilet-santri-dnr-1",
+      "program_id": "dn-4",
+      "nama": "Hudan Miftahurroji",
+      "jumlah": 100000,
+      "metode": "Transfer Bank",
+      "waktu": "2026-10-01",
+      "tampil": true
+    },
+    {
+      "id": "renovasi-tempat-wudhu-toilet-santri-dnr-2",
+      "program_id": "dn-4",
+      "nama": "Ibu Nenden Hasanah",
+      "jumlah": 1500000,
+      "metode": "Tunai di Bendahara",
+      "waktu": "2026-09-28",
+      "tampil": true
+    },
+    {
+      "id": "santunan-bulanan-anak-yatim-dnr-1",
+      "program_id": "dn-5",
+      "nama": "Alumni MA 2015",
+      "jumlah": 1000000,
+      "metode": "Transfer Bank",
+      "waktu": "2026-09-28",
+      "tampil": true
+    },
+    {
+      "id": "ambulans-layanan-kesehatan-warga-dnr-1",
+      "program_id": "dn-6",
+      "nama": "Hamba Allah",
+      "jumlah": 500000,
+      "metode": "QRIS",
+      "waktu": "2026-09-28",
+      "tampil": true
+    },
+    {
+      "id": "pembangunan-masjid-al-furqan-lantai-dua-dnr-1",
+      "program_id": "dn-7",
+      "nama": "Komunitas Pengajian Cibatu",
+      "jumlah": 300000,
+      "metode": "Tunai di Bendahara",
+      "waktu": "2026-09-28",
+      "tampil": true
+    },
+    {
+      "id": "pengadaan-komputer-laboratorium-dnr-1",
+      "program_id": "dn-8",
+      "nama": "Bapak Rahmat Hidayat",
+      "jumlah": 250000,
+      "metode": "Transfer Bank",
+      "waktu": "2026-09-21",
+      "tampil": true
+    }
+  ],
+  "donasi_riwayat": [
+    {
+      "id": "dn-1-rw-1",
+      "program_id": "dn-1",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-1-rw-2",
+      "program_id": "dn-1",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-1-rw-3",
+      "program_id": "dn-1",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-1-rw-4",
+      "program_id": "dn-1",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-1-rw-5",
+      "program_id": "dn-1",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-2-rw-1",
+      "program_id": "dn-2",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-2-rw-2",
+      "program_id": "dn-2",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-2-rw-3",
+      "program_id": "dn-2",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-2-rw-4",
+      "program_id": "dn-2",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-2-rw-5",
+      "program_id": "dn-2",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-3-rw-1",
+      "program_id": "dn-3",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-3-rw-2",
+      "program_id": "dn-3",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-3-rw-3",
+      "program_id": "dn-3",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-3-rw-4",
+      "program_id": "dn-3",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-3-rw-5",
+      "program_id": "dn-3",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-4-rw-1",
+      "program_id": "dn-4",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-4-rw-2",
+      "program_id": "dn-4",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-4-rw-3",
+      "program_id": "dn-4",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-4-rw-4",
+      "program_id": "dn-4",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-4-rw-5",
+      "program_id": "dn-4",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-5-rw-1",
+      "program_id": "dn-5",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-5-rw-2",
+      "program_id": "dn-5",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-5-rw-3",
+      "program_id": "dn-5",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-5-rw-4",
+      "program_id": "dn-5",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-5-rw-5",
+      "program_id": "dn-5",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-6-rw-1",
+      "program_id": "dn-6",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-6-rw-2",
+      "program_id": "dn-6",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-6-rw-3",
+      "program_id": "dn-6",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-6-rw-4",
+      "program_id": "dn-6",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-6-rw-5",
+      "program_id": "dn-6",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-7-rw-1",
+      "program_id": "dn-7",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-7-rw-2",
+      "program_id": "dn-7",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-7-rw-3",
+      "program_id": "dn-7",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-7-rw-4",
+      "program_id": "dn-7",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-7-rw-5",
+      "program_id": "dn-7",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    },
+    {
+      "id": "dn-8-rw-1",
+      "program_id": "dn-8",
+      "urutan": 1,
+      "tanggal": "2026-10-02",
+      "judul": "Pemeriksaan internal bendahara",
+      "keterangan": "Bendahara memeriksa kesesuaian penggunaan dana dengan rincian kebutuhan yang diumumkan, termasuk bukti pembelian dan foto pelaksanaan."
+    },
+    {
+      "id": "dn-8-rw-2",
+      "program_id": "dn-8",
+      "urutan": 2,
+      "tanggal": "2026-09-26",
+      "judul": "Laporan penggunaan dana tahap 1",
+      "keterangan": "Nota pembelian dan dokumentasi tahap pertama diarsipkan di sekretariat dan dapat diperiksa oleh donatur kapan saja pada jam layanan."
+    },
+    {
+      "id": "dn-8-rw-3",
+      "program_id": "dn-8",
+      "urutan": 3,
+      "tanggal": "2026-09-04",
+      "judul": "Pencairan dana tahap 1",
+      "keterangan": "Dana tahap pertama diserahkan kepada penanggung jawab program sesuai rencana kebutuhan yang tercantum pada halaman ini."
+    },
+    {
+      "id": "dn-8-rw-4",
+      "program_id": "dn-8",
+      "urutan": 4,
+      "tanggal": "2026-08-08",
+      "judul": "Laporan penerimaan donasi pekan pertama",
+      "keterangan": "Rekap donasi awal beserta jumlah donatur diumumkan melalui pengumuman resmi lembaga dan kanal informasi wali santri."
+    },
+    {
+      "id": "dn-8-rw-5",
+      "program_id": "dn-8",
+      "urutan": 5,
+      "tanggal": "2026-07-01",
+      "judul": "Program dibuka",
+      "keterangan": "Program diumumkan kepada wali santri, alumni, dan masyarakat beserta target, batas waktu, dan rincian penggunaan dana."
+    }
+  ],
+  "topik_kontak": [
+    {
+      "id": "tp-1",
+      "urutan": 1,
+      "teks": "Pendaftaran & SPMB",
+      "aktif": true
+    },
+    {
+      "id": "tp-2",
+      "urutan": 2,
+      "teks": "Informasi jenjang pendidikan",
+      "aktif": true
+    },
+    {
+      "id": "tp-3",
+      "urutan": 3,
+      "teks": "Layanan wali santri",
+      "aktif": true
+    },
+    {
+      "id": "tp-4",
+      "urutan": 4,
+      "teks": "Kerja sama & undangan",
+      "aktif": true
+    },
+    {
+      "id": "tp-5",
+      "urutan": 5,
+      "teks": "Donasi, infak, dan wakaf",
+      "aktif": true
+    },
+    {
+      "id": "tp-6",
+      "urutan": 6,
+      "teks": "Lainnya",
+      "aktif": true
+    }
+  ],
+  "kontak_unit": [
+    {
+      "id": "kt-1",
+      "urutan": 1,
+      "nama": "Sekretariat PC PERSIS Cibatu",
+      "keterangan": "Surat menyurat, informasi umum, dan layanan tamu",
+      "telepon": "(0262) 555-1234",
+      "whatsapp": "0812-3456-7890",
+      "jam": "Senin – Jumat, 07.30 – 15.30 WIB",
+      "aktif": true
+    },
+    {
+      "id": "kt-2",
+      "urutan": 2,
+      "nama": "Panitia SPMB",
+      "keterangan": "Pendaftaran, berkas, dan jadwal tes masuk",
+      "telepon": "(0262) 555-1235",
+      "whatsapp": "0812-3456-7891",
+      "jam": "Senin – Sabtu, 08.00 – 15.00 WIB",
+      "aktif": true
+    }
+  ],
+  "notifikasi": [
+    {
+      "id": "nt-nf-ag-2",
+      "sasaran": "semua",
+      "jenis": "Agenda",
+      "judul": "Tes Baca Al-Qur'an Calon Santri Baru",
+      "ringkasan": "08.00 – 12.00 WIB · Gedung B, Lantai 2",
+      "tautan": "/#/beranda/agenda/ag-2",
+      "sumber_tabel": "agenda",
+      "sumber_id": "ag-2",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-kj-2",
+      "sasaran": "semua",
+      "jenis": "Kajian",
+      "judul": "Kajian Rutin Muslimah: Adab Keluarga Sakinah",
+      "ringkasan": "Ustadzah Nur Aisyah, S.Pd.I. · 09.00 WIB · Aula Muslimah",
+      "tautan": "/#/kajian/kj-2",
+      "sumber_tabel": "kajian",
+      "sumber_id": "kj-2",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-ag-1",
+      "sasaran": "semua",
+      "jenis": "Agenda",
+      "judul": "Peringatan Isra Mi'raj 1447 H",
+      "ringkasan": "07.30 – 11.00 WIB · Aula PC PERSIS Cibatu",
+      "tautan": "/#/beranda/agenda/ag-1",
+      "sumber_tabel": "agenda",
+      "sumber_id": "ag-1",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-kj-1",
+      "sasaran": "semua",
+      "jenis": "Kajian",
+      "judul": "Kajian Ahad Subuh: Tafsir Surah Al-Fatihah",
+      "ringkasan": "Ust. H. Ahmad Fauzan, Lc., M.A. · 05.30 WIB · Masjid Al-Furqan Cibatu",
+      "tautan": "/#/kajian/kj-1",
+      "sumber_tabel": "kajian",
+      "sumber_id": "kj-1",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-an-1",
+      "sasaran": "semua",
+      "jenis": "Pengumuman",
+      "judul": "Jadwal Ujian Akhir Semester Ganjil 1447 H",
+      "ringkasan": "Ujian berlangsung 24 Februari – 3 Maret 2026 untuk seluruh jenjang. Kartu ujian dapat diambil di ruang tata usaha mulai pekan depan.",
+      "tautan": "/#/beranda/pengumuman/an-1",
+      "sumber_tabel": "pengumuman",
+      "sumber_id": "an-1",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-nw-1",
+      "sasaran": "semua",
+      "jenis": "Berita",
+      "judul": "Santri PC PERSIS Cibatu Raih Juara I MTQ Tingkat Kabupaten Garut",
+      "ringkasan": "Ananda Rizky Nurhakim, santri kelas XI, berhasil menyisihkan 42 peserta dari berbagai lembaga pendidikan Islam di Garut.",
+      "tautan": "/#/berita/santri-juara-mtq-kabupaten-garut",
+      "sumber_tabel": "berita",
+      "sumber_id": "nw-1",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-an-2",
+      "sasaran": "semua",
+      "jenis": "Pengumuman",
+      "judul": "Kuota SPMB Gelombang I Tersisa 38 Kursi",
+      "ringkasan": "Pendaftaran gelombang I ditutup 28 Februari 2026. Pastikan berkas akta kelahiran dan kartu keluarga diunggah lengkap.",
+      "tautan": "/#/beranda/pengumuman/an-2",
+      "sumber_tabel": "pengumuman",
+      "sumber_id": "an-2",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-nw-2",
+      "sasaran": "semua",
+      "jenis": "Berita",
+      "judul": "Kunjungan Studi Banding dari PC PERSIS Sumedang",
+      "ringkasan": "Delegasi membahas pengelolaan ma'had, kurikulum tahfidz, dan tata kelola keuangan lembaga pendidikan.",
+      "tautan": "/#/berita/kunjungan-studi-banding-pc-persis-sumedang",
+      "sumber_tabel": "berita",
+      "sumber_id": "nw-2",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-an-3",
+      "sasaran": "semua",
+      "jenis": "Pengumuman",
+      "judul": "Pembagian Rapor & Pertemuan Wali Santri",
+      "ringkasan": "Pertemuan wali santri dilaksanakan serentak di aula PC PERSIS Cibatu, pukul 08.00 WIB, dilanjutkan sesi tanya jawab.",
+      "tautan": "/#/beranda/pengumuman/an-3",
+      "sumber_tabel": "pengumuman",
+      "sumber_id": "an-3",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-nw-3",
+      "sasaran": "semua",
+      "jenis": "Berita",
+      "judul": "Pelatihan Guru: Metode Pembelajaran Bahasa Arab Kontemporer",
+      "ringkasan": "Diikuti 68 guru dari semua jenjang, pelatihan menekankan pendekatan komunikatif dan praktik kelas dua arah.",
+      "tautan": "/#/berita/pelatihan-guru-bahasa-arab-kontemporer",
+      "sumber_tabel": "berita",
+      "sumber_id": "nw-3",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-an-4",
+      "sasaran": "semua",
+      "jenis": "Pengumuman",
+      "judul": "Libur Awal Ramadhan dan Kegiatan Pesantren Kilat",
+      "ringkasan": "KBM diliburkan pada dua hari pertama Ramadhan, digantikan jadwal khusus pesantren kilat untuk seluruh jenjang.",
+      "tautan": "/#/beranda/pengumuman/an-4",
+      "sumber_tabel": "pengumuman",
+      "sumber_id": "an-4",
+      "terbit": true
+    },
+    {
+      "id": "nt-nf-nw-4",
+      "sasaran": "semua",
+      "jenis": "Berita",
+      "judul": "Bakti Sosial Ramadhan: 500 Paket Sembako untuk Warga Cibatu",
+      "ringkasan": "Program tahunan bidang sosial PC PERSIS Cibatu menyasar delapan desa di wilayah Kecamatan Cibatu.",
+      "tautan": "/#/berita/bakti-sosial-ramadhan-500-paket-sembako",
+      "sumber_tabel": "berita",
+      "sumber_id": "nw-4",
+      "terbit": true
+    }
+  ]
+}
