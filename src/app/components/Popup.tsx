@@ -68,7 +68,7 @@ export default function Popup({
         </div>
 
         <div className="min-h-0 flex-1 overflow-y-auto px-5 pt-3.5 pb-5">
-          {bagikan ? <div className="mb-4 flex justify-end"><TombolBagikan konten={bagikan} /></div> : null}
+          {bagikan ? <TombolBagikan konten={bagikan} /> : null}
           <div className="border-t border-black/[0.08] pt-3.5">
             <div className="space-y-3">
               {detail.map((par, i) => (

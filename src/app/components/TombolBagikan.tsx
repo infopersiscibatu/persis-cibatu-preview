@@ -1,19 +1,16 @@
 import { useEffect, useState } from "react";
-import * as Dialog from "@radix-ui/react-dialog";
-import { Copy, Facebook, Instagram, Share2, X, MessageCircle, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Copy, Facebook, Share2, X, MessageCircle, Check } from "lucide-react";
 import { susunBagikan, type KontenBagikan } from "../lib/bagikan";
 
 export default function TombolBagikan({ konten }: { konten: KontenBagikan }) {
-  const [open, setOpen] = useState(false);
+  const [buka, setBuka] = useState(false);
   const [status, setStatus] = useState("");
   const [file, setFile] = useState<File | null>(null);
-  const [sibuk, setSibuk] = useState(false);
   const data = susunBagikan(konten, typeof window === "undefined" ? "https://localhost/" : window.location.origin + "/");
 
   useEffect(() => {
     setFile(null);
-    if (!open || !data.gambar) return;
+    if (!data.gambar) return;
     const abort = new AbortController();
     void fetch(data.gambar, { signal: abort.signal }).then(async (res) => {
       if (!res.ok) return;
@@ -23,82 +20,69 @@ export default function TombolBagikan({ konten }: { konten: KontenBagikan }) {
       setFile(new File([blob], `persis-cibatu.${ext}`, { type: blob.type }));
     }).catch(() => {});
     return () => abort.abort();
-  }, [open, data.gambar]);
+  }, [data.gambar]);
+
+  useEffect(() => {
+    if (!status) return;
+    const t = setTimeout(() => setStatus(""), 2500);
+    return () => clearTimeout(t);
+  }, [status]);
 
   const salin = async () => {
     try {
       await navigator.clipboard.writeText(data.teks);
-      setStatus("Pesan lengkap dan tautan berhasil disalin.");
-      return true;
+      setStatus("Pesan disalin");
     } catch {
-      setStatus("Belum bisa menyalin otomatis. Pilih dan salin pesan di bawah.");
-      return false;
+      setStatus("Gagal menyalin");
     }
   };
 
-  const bagikanPerangkat = async () => {
-    if (!navigator.share) {
-      await salin();
-      setStatus("Tempel pesan di Instagram. Gambar dapat diunduh melalui tombol gambar.");
-      return;
-    }
-    setSibuk(true);
+  // Bagikan gambar utuh (berkas) bersama teks bila perangkat mendukung.
+  const bagikanBerkas = async (): Promise<boolean> => {
+    if (!navigator.share) return false;
+    const files = file && navigator.canShare?.({ files: [file] }) ? [file] : undefined;
     try {
-      const files = file && navigator.canShare?.({ files: [file] }) ? [file] : undefined;
       await navigator.share({ title: data.judul, text: data.teks, ...(files ? { files } : {}) });
-      setStatus("Pilihan berbagi perangkat telah dibuka.");
+      return true;
     } catch (error) {
-      if (error instanceof Error && error.name === "AbortError") return;
-      setStatus("Berbagi perangkat belum tersedia. Gunakan WhatsApp atau salin pesan.");
-    } finally {
-      setSibuk(false);
+      return error instanceof Error && error.name === "AbortError";
     }
   };
 
-  const unduh = () => {
-    if (!file) return;
-    const url = URL.createObjectURL(file);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = file.name;
-    a.click();
-    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  const keWhatsApp = async () => {
+    if (file && navigator.canShare?.({ files: [file] }) && (await bagikanBerkas())) return;
+    window.open(`https://wa.me/?text=${encodeURIComponent(data.teks)}`, "_blank", "noopener,noreferrer");
   };
+
+  const keFacebook = () => {
+    void salin();
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}`, "_blank", "noopener,noreferrer");
+  };
+
+  const lainnya = async () => {
+    if (!(await bagikanBerkas())) await salin();
+  };
+
+  const aksi = [
+    { label: "WhatsApp", ikon: MessageCircle, onClick: keWhatsApp },
+    { label: "Facebook", ikon: Facebook, onClick: keFacebook },
+    { label: "Salin pesan", ikon: status === "Pesan disalin" ? Check : Copy, onClick: salin },
+    { label: "Aplikasi lain", ikon: Share2, onClick: lainnya },
+  ];
 
   return (
-    <Dialog.Root open={open} onOpenChange={(v) => { setOpen(v); setStatus(""); }}>
-      <Dialog.Trigger asChild>
-        <Button variant="outline" size="sm" className="border-persis-900/20 bg-card text-persis-900" aria-label={`Bagikan: ${konten.judul}`}>
-          <Share2 /> Bagikan
-        </Button>
-      </Dialog.Trigger>
-      <Dialog.Portal>
-        <Dialog.Overlay className="fixed inset-0 z-[90] bg-foreground/60" />
-        <Dialog.Content className="fixed inset-x-3 bottom-3 z-[91] mx-auto flex max-h-[85dvh] max-w-[520px] flex-col gap-4 overflow-y-auto rounded-lg border border-border bg-card p-5 text-card-foreground shadow-xl outline-none sm:bottom-auto sm:top-1/2 sm:-translate-y-1/2">
-          <div className="flex items-center justify-between gap-3">
-            <Dialog.Title className="text-base font-bold">Bagikan</Dialog.Title>
-            <Dialog.Close asChild><Button size="icon" variant="ghost" aria-label="Tutup pilihan berbagi"><X /></Button></Dialog.Close>
-          </div>
-          <Dialog.Description className="sr-only">Bagikan {data.judul}</Dialog.Description>
-          {data.gambar ? <img src={data.gambar} alt={data.judul} className="aspect-video w-full rounded-md object-cover" /> : null}
-          <div className="space-y-1">
-            <h3 className="break-words text-sm font-bold">{data.judul}</h3>
-            {data.penulis ? <p className="text-xs text-muted-foreground">Penulis: {data.penulis}</p> : null}
-          </div>
-          <div className="grid grid-cols-2 gap-2">
-            <Button variant="outline" asChild><a href={`https://wa.me/?text=${encodeURIComponent(data.teks)}`} target="_blank" rel="noopener noreferrer"><MessageCircle /> WhatsApp</a></Button>
-            <Button variant="outline" disabled={sibuk} onClick={bagikanPerangkat}><Instagram /> Instagram</Button>
-            <Button variant="outline" asChild><a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(data.url)}`} target="_blank" rel="noopener noreferrer" onClick={() => { void salin(); }}><Facebook /> Facebook</a></Button>
-            <Button variant="outline" onClick={() => { void salin(); }}><Copy /> Salin</Button>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            <Button variant="ghost" size="sm" disabled={sibuk} onClick={bagikanPerangkat}><Share2 /> Aplikasi lainnya</Button>
-            {file ? <Button variant="ghost" size="sm" onClick={unduh}><Download /> Unduh gambar</Button> : null}
-          </div>
-          <textarea aria-label="Pesan yang dibagikan" readOnly value={data.teks} className="min-h-32 w-full resize-y rounded-md border border-input bg-background p-3 text-xs leading-relaxed text-foreground" />
-          {status ? <p role="status" className="text-xs text-persis-900">{status}</p> : null}
-        </Dialog.Content>
-      </Dialog.Portal>
-    </Dialog.Root>
+    <div className="fixed bottom-[88px] right-4 z-[95] flex flex-col items-end gap-2">
+      {status ? <p role="status" className="rounded-full bg-foreground px-3 py-1 text-xs text-background shadow">{status}</p> : null}
+      {buka ? aksi.map(({ label, ikon: Ikon, onClick }) => (
+        <button key={label} type="button" onClick={() => { void onClick(); }} aria-label={label} title={label}
+          className="flex h-11 w-11 items-center justify-center rounded-full border border-border bg-card text-persis-900 shadow-md transition active:scale-95">
+          <Ikon className="h-5 w-5" />
+        </button>
+      )) : null}
+      <button type="button" onClick={() => setBuka((v) => !v)} aria-label={buka ? "Tutup bagikan" : `Bagikan: ${konten.judul}`} aria-expanded={buka}
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-persis-900 text-primary-foreground shadow-lg transition active:scale-95">
+        {buka ? <X className="h-6 w-6" /> : <Share2 className="h-6 w-6" />}
+      </button>
+    </div>
   );
 }
